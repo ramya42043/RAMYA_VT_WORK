@@ -1,0 +1,7 @@
+<html>
+	<form action="/validate" method="post">
+		<input type="text" name="username" placeholder="username"></br>
+		<input type="password" name="paswrd" placeholder="password"></br>
+		<input type="submit" value="Sign In">
+	</form>
+</html>

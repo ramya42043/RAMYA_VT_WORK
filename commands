@@ -1,0 +1,65 @@
+
+		INIT:
+
+{"Cmd":"VITA_DM_Init"}
+
+
+		DISCOVER:
+
+ {"Cmd":"Discover"}
+
+
+		GET:
+
+{"Cmd":"iotvity_Get","Handle":"0x7f2850000d00"}
+
+
+
+		PUT :
+{"Cmd":"iotvity_Put","Data":{ "Service Changed": "1"},"Handle":"0x7fa3a0000a80"};
+
+
+{"Cmd":"iotvity_Put","Data":{"power":"11"},"Handle":"0x7fc000007570"};
+
+
+		Observe :
+
+{"Cmd":"iotvity_Observe","Handle":"0x7fd748000b60"};
+ 
+		Cancel Observe
+
+{"Cmd":"cancel_Observe","Handle":"0x7fd748000b60"};
+
+		Delete
+
+{"Cmd":"Delete_resource","Handle":"0x7f8b3c000b30"};
+
+		Terminate
+{"Cmd":"Terminate"};
+
+
+		PATH:
+
+export LD_LIBRARY_PATH=VITA_DM/Executables/lib/:VITA_DM/DM_IoTvity/:VITA_DM/DM_IoTvity/iotivity-1.2.1/out/linux/x86_64/release
+
+
+		PI PATH:
+export LD_LIBRARY_PATH=VITA_DM/Executables/lib/:VITA_DM/DM_IoTvity/:VITA_DM/DM_IoTvity/iotivity-1.2.1/out/linux/arm/release
+
+
+if(duplicateData == NULL)
+        {
+            strcpy (duplicateData,ucdata);
+        }
+        else if(strcmp (duplicateData,ucdata) == 0)
+        {
+            return CA_SEND_FAILED;
+        }
+        strcpy (duplicateData,ucdata);
+
+
+
+
+
+64:CC:2E:14:49:A2============>classic Bt
+

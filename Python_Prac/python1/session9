@@ -1,0 +1,74 @@
+Regular expressions:
+re
+
+match
+	it checks if the pattern is present at the beginning of the
+	string or not. if the pattern is present at the beginning of the
+	string it returns a match object.
+
+search
+	it checks if the pattern is present any where in the string or not
+	if the pattern is present any where in the string it is going to
+	return a match object
+
+findall
+	it returns all the matches as a list.
+
+
+sub
+
+. any character except a new line character
+can match a single character
+
+r"c.b"
+
+cab cbb ccb....
+c1b c2b c5b....
+c^b c#b
+
+quantifiers:
+* 0 or more number of times
+r"ca*b"
+c followed by a is present 0 or more number of times followed by b
+cb, cab, caab, caaab,.....
++ 1 or more number of times
+r"ca+b"
+cab, caab, caaab, ....
+? 0 or 1 time
+r"ca?b"
+cb, cab
+{m,n} min=m, max=n
+ca{3,5}b
+caaab, caaaab, caaaaab
+{m,} min=m max=any number of times
+ca{3,}b
+caaab, caaaab, caaaaab, .....
+{m} exactly m times
+
+r"ca{3}b"
+
+
+by default all the quantifiers are greedy in nature they try to 
+match as much as possible
+
+we can make quantifiers non greedy by placing a question mark ? after a quantifier.
+
+character class:
+[a-z]
+
+[A-Z]
+
+
+escape sequences:
+\w word character [a-zA-Z0-9_]
+
+\b word boundary
+it is not going to match any character.
+it matches the transition from word to non word character and vice versa.
+
+
+I am going
+
+
+
+
