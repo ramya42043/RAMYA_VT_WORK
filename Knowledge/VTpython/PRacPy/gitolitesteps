@@ -1,0 +1,2000 @@
+ 1015  python run.py init 1 discover 1 get 1
+ 1016  cd ..
+ 1017  cd work/
+ 1018  cd ..
+ 1019  cd Documents/
+ 1020  ls
+ 1021  cd Integration/
+ 1022  ls
+ 1023  cd VTAT/
+ 1024  python test.py
+ 1025  vi test.py 
+ 1026  ipython
+ 1027  ./manage.py shell
+ 1028  cd Documents/
+ 1029  ls
+ 1030  vi test.py
+ 1031  cd Documents/
+ 1032  ls
+ 1033  cd Integration/
+ 1034  python a.py
+ 1035  cd xlsx/
+ 1036  python a.py
+ 1037  ipython
+ 1038  cd Do
+ 1039  cd Documents/
+ 1040  ls
+ 1041  cd work/
+ 1042  ls
+ 1043  cd kivy_data/
+ 1044  vi basic_ex.py
+ 1045  python basic_ex.py
+ 1046  vi basic_ex.py
+ 1047  python basic_ex.py
+ 1048  notify-send 'title' 'message'
+ 1049  toilet -F border -F gay "CRAZY"
+ 1050  toilet -F border -F gay "CRAZY"sudo apt install toilet
+ 1051  sudo apt install toilet
+ 1052  toilet -F border -F gay "CRAZY"sudo apt install toilet
+ 1053  sudo lsof | tee >(zenity --progress --pulsate) > out
+ 1054  zenity --question --text "Are you sure you want to shutdown?"; echo $?
+ 1055  ans=$(zenity --scale --text "pick a number" --min-value=2 --max-value=100 --value=2 --step 2); echo "$ans"
+ 1056  sudo lsof | zenity --text-info --width 530
+ 1057  zenity --question --text "Are you sure you want to shutdown?"; echo $?
+ 1058  ipython
+ 1059  zenity --question --text "Are you sure you want to shutdown?"; echo $?notify-send "Hello" "Hello world"
+ 1060  notify-send "Hello" "Hello world"
+ 1061  whiptail --msgbox "Hello world" 10 30
+ 1062  whiptail --msgbox "Hello world" 10 20
+ 1063  whiptail --msgbox "Hello world" 10 30
+ 1064  ipython
+ 1065  cd Documents/
+ 1066  ls
+ 1067  cd Integration/
+ 1068  ls
+ 1069  cd VTAT/
+ 1070  ls
+ 1071  ./manage.py runserver 8001
+ 1072  cd Documents/
+ 1073  cd Integration/
+ 1074  ls 
+ 1075  cd VTAT/
+ 1076  ./manage.py runserver 8001
+ 1077  ipython
+ 1078  cd work/
+ 1079  ls
+ 1080  cd ne
+ 1081  cd new
+ 1082  ls
+ 1083  cd VATAT/
+ 1084  ls
+ 1085  cd new
+ 1086  ls
+ 1087  cd dist/
+ 1088  ls
+ 1089  cd VTAT/
+ 1090  la
+ 1091  ./VTAT runserver 8001
+ 1092  python3
+ 1093  cd usr
+ 1094  cd /usr/
+ 1095  cd bin/
+ 1096  ps -a
+ 1097  adb --help
+ 1098  adb devices
+ 1099  cd work/
+ 1100  ls
+ 1101  cd VATAT/
+ 1102  ls
+ 1103  adb devices
+ 1104  ipython
+ 1105  cd Documents/
+ 1106  ls
+ 1107  cd IN
+ 1108  cd Integration/
+ 1109  ls
+ 1110  cd VTAT/
+ 1111  ls
+ 1112  ./manage.py runserver 8002
+ 1113  ./manage.py runserver 0.0.0.0:8002
+ 1114  cd Downloads/
+ 1115  java -jar adbportforward.jar client adblocation=/usr/bin/
+ 1116  java -jar adbportforward.jar client adblocation=/usr/bin
+ 1117  java -jar adbportforward.jar client adblocation=/usr/bin/adb
+ 1118  java -jar adbportforward.jar client adblocation=[adb location] 
+ 1119  remotehost=[ip of machine to which android device is connected]
+ 1120  java -jar adbportforward.jar client adblocation=[adb location] 
+ 1121  remotehost=[ip of machine to which android device is connected]
+ 1122  java -jar adbportforward.jar client adblocation=[adb location] remotehost=192.168.4.124
+ 1123  java -jar adbportforward.jar client adblocation=[=/usr/bin remotehost=192.168.4.124
+ 1124  adb kill-server
+ 1125  ps -a
+ 1126  java -jar adbportforward.jar client adblocation=[=/usr/bin remotehost=192.168.4.124
+ 1127  java -jar adbportforward.jar client adblocation=/usr/bin remotehost=192.168.4.124
+ 1128  adb devices
+ 1129  adb forward tcp:7612 tcp:7612
+ 1130  java -jar adbportforward.jar client adblocation=/usr/bin remotehost=192.168.4.124
+ 1131  java -jar adbportforward.jar client adblocation=/usr/bin remotehost=192.168.4.124 port=5555
+ 1132  java -jar adbportforward.jar client adblocation=/usr/bin remotehost=192.168.4.124
+ 1133  java -jar adbportforward.jar client adblocation=/usr/bin
+ 1134  java -jar adbportforward.jar client adblocation=/usr/bin remotehost=192.168.4.124
+ 1135  java -jar adbportforward.jar client adblocation=/usr/bin remotehost=192.168.4.124 port=60000
+ 1136  sudo su
+ 1137  appium
+ 1138  ipython
+ 1139  adb devices
+ 1140  cd Documents/
+ 1141  ls
+ 1142  cd Integration/
+ 1143  ls
+ 1144  cd VTAT/
+ 1145  ls
+ 1146  ./manage.py runserver 8002
+ 1147  ls
+ 1148  cd Sensor_Processing_Proj/
+ 1149  ls
+ 1150  cd poc_dm/
+ 1151  ls
+ 1152  python sensor.py 
+ 1153  ipython
+ 1154  cd Documents/
+ 1155  ls
+ 1156  cd new
+ 1157  mkdir new
+ 1158  ls
+ 1159  cd new
+ 1160  ls
+ 1161  pip install virtualenv
+ 1162  cd /usr/local/lib/python2.7/dist-packages/
+ 1163  ls
+ 1164  source env/bin/activate
+ 1165  cd ..
+ 1166  cd ...
+ 1167  cd ..
+ 1168  cd
+ 1169  cd Documents/
+ 1170  ls
+ 1171  cd new/
+ 1172  ls
+ 1173  pip install virtualenv
+ 1174  sudo xcode-select --install
+ 1175  cd ..
+ 1176  cd PYBrowse
+ 1177  mkdir PYBrowse
+ 1178  cd PYBrowse/
+ 1179  which virtualenv
+ 1180  source env/bin/activate
+ 1181  virtualenv -p /Library/Frameworks/Python.framework/Version/2.7/bin/python2.7 env
+ 1182  ls
+ 1183  virtualenv -p /usr/bin/python2.7 my_project
+ 1184  source env/bin/activate
+ 1185  ls
+ 1186  rm -rf my_project/
+ 1187  ls
+ 1188  virtualenv -p /usr/bin/python2.7 env
+ 1189  source env/bin/activate
+ 1190  pip install pywebview
+ 1191  pip install pyobjc-core
+ 1192  pip install pyobjc
+ 1193  pywebview -version
+ 1194  pywebview --version
+ 1195  touch main.py
+ 1196  chmod +x main.py
+ 1197  gedit main.py
+ 1198  vi main.py
+ 1199  python main.py
+ 1200  vi main.py
+ 1201  python main.py
+ 1202  vi main.py
+ 1203  python main.py
+ 1204  vi main.py
+ 1205  python main.py
+ 1206  apt-get install python-qt4
+ 1207  pip install qt4
+ 1208  pip install qt
+ 1209  sudo apt-get install python-qt4
+ 1210  python main.py
+ 1211  ls
+ 1212  cd env
+ 1213  ls
+ 1214  sudo apt-get install python-dev python-qt4 python-qt4-dev python-sip python-sip-dev build-essential gfortran libqt4-dev qt4-qmake libpq-dev libsqlite3-dev qt4-dev-tools qt4-doc unixodbc-dev pyqt4-dev-tools
+ 1215  ls
+ 1216  cd ..
+ 1217  ls
+ 1218  python main.py
+ 1219  ls
+ 1220  cd softwares/
+ 1221  ls
+ 1222  make
+ 1223  python configure.py
+ 1224  python configure.py --incdr="$VIRTUAL_ENV/include/python2.7"
+ 1225  cd ..
+ 1226  ls
+ 1227  cd env/
+ 1228  ls
+ 1229  cd include/
+ 1230  cd ..
+ 1231  python configure.py
+ 1232  cd env/
+ 1233  python configure.py
+ 1234  cd ..
+ 1235  cd softwares/
+ 1236  ls
+ 1237  cd PyQt3D_gpl-5.9/
+ 1238  ls
+ 1239  python configure.py --incdr="$VIRTUAL_ENV/include/python2.7"
+ 1240  python configure.py --incdir="$VIRTUAL_ENV/include/python2.7"
+ 1241  python configure.py
+ 1242  ls
+ 1243  python configure.py --incdir="$env/include/python2.7"
+ 1244  $VIRTUAL_ENV
+ 1245  echo $VIRTUAL_ENV
+ 1246  cd ..
+ 1247  cd env/
+ 1248  ls
+ 1249  cd include/
+ 1250  ls
+ 1251  cd ..
+ 1252  cd softwares/
+ 1253  ls
+ 1254  cd PyQt3D_gpl-5.9/
+ 1255  ls
+ 1256  $VIRTUAL_ENV
+ 1257  echo $VIRTUAL_ENV
+ 1258  python configure.py --incdir="$env/include/python2.7"
+ 1259  python configure.py --incdir="$VIRTUAL_ENV/include/python2.7"
+ 1260  cd ..
+ 1261  ls
+ 1262  cd softwares/
+ 1263  ls
+ 1264  cd PyQt-x11-gpl-4.10.4/
+ 1265  ls
+ 1266  cd ..
+ 1267  python config.py
+ 1268  pip install SIP
+ 1269  ls
+ 1270  cd sip-4.19.3/
+ 1271  ls
+ 1272  python configure.py
+ 1273  make
+ 1274  sudo make install
+ 1275  cd ..
+ 1276  cd PyQt-x11-gpl-4.10.4/
+ 1277  ls
+ 1278  python configur-ng.py
+ 1279  python configure-ng.py
+ 1280  make
+ 1281  make install
+ 1282  python
+ 1283  python configure-ng.py  --incdir="$VIRTUAL_ENV/include/python2.7"
+ 1284  cd ..
+ 1285  pip install SIP
+ 1286  cd softwares/
+ 1287  ls
+ 1288  cd sip-4.19.3/
+ 1289  ls
+ 1290  python configure.py 
+ 1291  make
+ 1292  sudo make install
+ 1293  cd ..
+ 1294  cd PyQt-x11-gpl-4.10.4/
+ 1295  python configure.py 
+ 1296  make
+ 1297  sudo make install
+ 1298  python
+ 1299  python configure.py -q /usr/bin/qmake-qt4
+ 1300  make
+ 1301  make install
+ 1302  python
+ 1303  python configure.py --incdir="$VIRTUAL_ENV/include/python2.7"
+ 1304  cd ..
+ 1305  cd softwares/
+ 1306  ls
+ 1307  cd sip-4.19.3/
+ 1308  ls
+ 1309  python configure.py 
+ 1310  make
+ 1311  suso make install
+ 1312  sudo make install
+ 1313  cd ..
+ 1314  cd PyQt-x11-gpl-4.10.4/
+ 1315  ls
+ 1316  cd ..
+ 1317  wget -O PyQt-x11-gpl-4.11.tar.gz http://sourceforge.net/projects/pyqt/files/PyQt4/PyQt-4.11/PyQt-x11-gpl-4.11.tar.gz
+ 1318  tar -xvzf PyQt-x11-gpl-4.11.tar.gz0
+ 1319  ls
+ 1320  cd PyQt-x11-gpl-4.11/
+ 1321  ls
+ 1322  make
+ 1323  sudo amke install
+ 1324  sudo make install
+ 1325  python
+ 1326  make
+ 1327  make clean
+ 1328  ls
+ 1329  cd ..
+ 1330  make clean
+ 1331  ls
+ 1332  cd PyQt-x11-gpl-4.10.4/
+ 1333  make clean
+ 1334  cd ..
+ 1335  ls
+ 1336  cd PyQt-x11-gpl-4.11/
+ 1337  ls
+ 1338  make clean
+ 1339  make
+ 1340  make clean
+ 1341  ls
+ 1342  vi configure-ng.py 
+ 1343  ls
+ 1344  python configure.py --incdir="$VIRTUAL_ENV/include/python2.7"
+ 1345  python configure.py -q "$VIRTUAL_ENV/include/python2.7"
+ 1346  echo $VIRTUAL_ENV
+ 1347  cd $VIRTUAL_ENV/include/python2.7
+ 1348  ls
+ 1349  cd -
+ 1350  python configure-ng.py -q /usr/bin/qmake-qt4
+ 1351  make
+ 1352  ls
+ 1353  make clean
+ 1354  sudo make
+ 1355  make clean
+ 1356  cd ..
+ 1357  ls
+ 1358  cd PyQt-x11-gpl-4.10.4/
+ 1359  make clean
+ 1360  ls
+ 1361  cd ..
+ 1362  cd PyQt-x11-gpl-4.11/
+ 1363  ls
+ 1364  python configure.py -h
+ 1365  python configure.py -q /usr/bin/qmake
+ 1366  make
+ 1367  make clean
+ 1368  make
+ 1369  python configure.py
+ 1370  make
+ 1371  make clean
+ 1372  sudo python configure-ng.py -q /usr/bin/qmake-qt4
+ 1373  make
+ 1374  make clean
+ 1375  ls
+ 1376  cd ..
+ 1377  ls
+ 1378  rm -rf .*
+ 1379  ls
+ 1380  rm -rf PyQt-x11-gpl-4.1
+ 1381  rm -rf PyQt-x11-gpl-4.11
+ 1382  rm -rf PyQt-x11-gpl-4.10`
+ 1383  rm -rf PyQt-x11-gpl-4.10
+ 1384  ls
+ 1385  rm -rf PyQt-x11-gpl-4.11
+ 1386  sudo rm -rf PyQt-x11-gpl-4.11
+ 1387  ls
+ 1388  sudo rf -rm PyQt-x11-gpl-4.10.4
+ 1389  sudo rm -rf PyQt-x11-gpl-4.10.4
+ 1390  ls
+ 1391  sudo rm -rf PyQt-x11-gpl-4.11.tar.gz 
+ 1392  ls
+ 1393  sudo rm -rf PyQt-x11-gpl-4.10.4.tar.gz 
+ 1394  ls
+ 1395  sudo rm -rf sip-4.19.3
+ 1396  sudo rm -rf sip-4.19.3.tar.gz 
+ 1397  ls
+ 1398  make
+ 1399  make clean
+ 1400  ls
+ 1401  sudo rm -rf sip-4.19.3.tar.gz 
+ 1402  ls
+ 1403  sudo apt-get install python2.7-dev libxext-dev qt4-dev-tools build-essential
+ 1404  wget -O sip-4.16.1.tar.gz http://sourceforge.net/projects/pyqt/files/sip/sip-4.16.1/sip-4.16.1.tar.gz
+ 1405  tar -xvzf sip-4.16.1.tar.gz
+ 1406  cd sip-4.16.1/
+ 1407  python configure.py 
+ 1408  make
+ 1409  sudo make install
+ 1410  cd ..
+ 1411  ls
+ 1412  wget -O PyQt-x11-gpl-4.11.tar.gz http://sourceforge.net/projects/pyqt/files/PyQt4/PyQt-4.11/PyQt-x11-gpl-4.11.tar.gz
+ 1413  cd PyQt-x11-gpl-4.11/
+ 1414  make
+ 1415  sudo make install
+ 1416  python
+ 1417  cd ..
+ 1418  ls
+ 1419  python main.py
+ 1420  deactivate
+ 1421  ls
+ 1422  python main.py 
+ 1423  sudo pip install pywebview
+ 1424  python main.py 
+ 1425  py2applet --make-setup main.py
+ 1426  sudo find / -name "py2applet" -type f
+ 1427  sudo pip install py2app
+ 1428  man py2applet
+ 1429  py2applet
+ 1430  py2applet --help
+ 1431  py2applet --make-setup main.py
+ 1432  ls
+ 1433  python
+ 1434  ipython
+ 1435  ppython configure-ng.py -h
+ 1436  python configure-ng.py -h
+ 1437  ipython
+ 1438  python3
+ 1439  cd Documents/
+ 1440  ls
+ 1441  cd Integration/
+ 1442  ls
+ 1443  cd VTAT/
+ 1444  ./manage.py runserver 8001
+ 1445  cd ..
+ 1446  cd work/
+ 1447  cd VTAT/
+ 1448  ls
+ 1449  ccd ..
+ 1450  cd ..
+ 1451  cd VATAT/
+ 1452  ls
+ 1453  cd be
+ 1454  cd new
+ 1455  ls
+ 1456  cd dist/
+ 1457  ls
+ 1458  cd Vt
+ 1459  cd VTAT/
+ 1460  ls
+ 1461  ./VTAT runserver 8001
+ 1462  cd Documents/
+ 1463  ls
+ 1464  cd PYBrowse/
+ 1465  ls
+ 1466  python main.py
+ 1467  vi main.py
+ 1468  python main.py
+ 1469  vi main.py
+ 1470  vi setup.py 
+ 1471  python setup.py py2app
+ 1472  vi setup.py 
+ 1473  python setup.py py2app
+ 1474  vi setup.py 
+ 1475  python setup.py py2app
+ 1476  vi setup.py 
+ 1477  python setup.py py2app
+ 1478  python main.py
+ 1479  python setup.py py2app
+ 1480  ls
+ 1481  rm -rf dist/
+ 1482  rm -rf build/
+ 1483  ls
+ 1484  pip install paste
+ 1485  vi main.py 
+ 1486  python main.py 
+ 1487  vi main.py 
+ 1488  python main.py 
+ 1489  python main.py
+ 1490  cd ..
+ 1491  cd Integration/
+ 1492  ls
+ 1493  cd VTAT/
+ 1494  ls
+ 1495  cd ..
+ 1496  ls
+ 1497  cd VT
+ 1498  ls
+ 1499  pyinstaller --name=VTAT VTAT/manage.py
+ 1500  ls
+ 1501  cd dist/
+ 1502  ls
+ 1503  cd VTAT/
+ 1504  ls
+ 1505  ./VTAT runserver 8002
+ 1506  locate libpython
+ 1507  cd /usr/
+ 1508  cd lib
+ 1509  ls
+ 1510  ls -l
+ 1511  ls |libpython
+ 1512  ls | grep "libpython"\
+ 1513  ls | grep "libpython"
+ 1514  ls
+ 1515  locate libpython2.7
+ 1516  vi setup.py
+ 1517  cd..
+ 1518  cd
+ 1519  cd Documents/
+ 1520  ls
+ 1521  cd PYBrowse/
+ 1522  ls
+ 1523  vi setup.py 
+ 1524  python setup.py
+ 1525  python setup.py PyInstaller
+ 1526  python setup.py pyinstaller
+ 1527  vi setup.py 
+ 1528  python setup.py pyinstaller
+ 1529  python setup.py PyInstaller
+ 1530  python setup.py -h
+ 1531  rm -rf setup.py 
+ 1532  py2applet --make-setup main.py
+ 1533  vi setup.py 
+ 1534  sudo find / -name "py2applet" -type f
+ 1535  rm -rf setup.py 
+ 1536  ls
+ 1537  PyInstaller --make-setup main.py
+ 1538  pyinstaller --make-setup main.py
+ 1539  pyinstaller -h
+ 1540  PyInstaller --help
+ 1541  Pyinstaller --help
+ 1542  pyinstaller --help
+ 1543  man pyinstaller
+ 1544  pyinstaller --help
+ 1545  cd ..
+ 1546  cd 
+ 1547  cd work/
+ 1548  ls
+ 1549  cd VATAT/
+ 1550  ls
+ 1551  cd new/
+ 1552  ls
+ 1553  pyinstaller --name=VTAT ./manage.py
+ 1554  pyinstaller --name=VTAT VTAT/manage.py
+ 1555  cd
+ 1556  cd Documents/Integration/
+ 1557  ls
+ 1558  cd VT/
+ 1559  ls
+ 1560  cd VTAT/
+ 1561  ls
+ 1562  ./manage.py runserver 8002
+ 1563  ./manage.py runserver 8001
+ 1564  pwd
+ 1565  cd ..
+ 1566  ls 
+ 1567  cd ..
+ 1568  cd PYBrowse/
+ 1569  ls
+ 1570  python main.py
+ 1571  vi main.py
+ 1572  python main.py
+ 1573  vi main.py
+ 1574  python main.py
+ 1575  vi main.py
+ 1576  python main.py
+ 1577  vi main.py
+ 1578  python main.py
+ 1579  vi main.py
+ 1580  python main.py
+ 1581  vi main.py
+ 1582  python main.py
+ 1583  vi main.py
+ 1584  python main.py
+ 1585  vi main.py
+ 1586  python main.py
+ 1587  vi main.py
+ 1588  python main.py
+ 1589  vi main.py
+ 1590  cd work/
+ 1591  ls
+ 1592  cd
+ 1593  cd Documents/
+ 1594  ls
+ 1595  cd PYBrowse/
+ 1596  ls
+ 1597  vi main.py
+ 1598  ./main.py
+ 1599  vi main.py
+ 1600  python main.py
+ 1601  vi main.py
+ 1602  python main.py
+ 1603  vi main.py
+ 1604  python main.py
+ 1605  cd ..\
+ 1606  cd ..
+ 1607  ls
+ 1608  cd Integration/
+ 1609  ls
+ 1610  cd VT/
+ 1611  ls
+ 1612  ls
+ 1613  ./manage.py runserver 8002
+ 1614  ./manage.py runserver 8001
+ 1615  sudo lsof -i:8001
+ 1616  sudo kill -9 16345
+ 1617  ls
+ 1618  sudo lsof -i:8001
+ 1619  cd Documents/
+ 1620  ls
+ 1621  cd PYBrowse/
+ 1622  ls
+ 1623  python main.py 
+ 1624  vi main.py 
+ 1625  python main.py 
+ 1626  cd ..
+ 1627  cd Integration/
+ 1628  ls
+ 1629  cd VT/
+ 1630  ls
+ 1631  cd VTAT/
+ 1632  ls
+ 1633  ./manage.py runserver 8001
+ 1634  ./manage.py runserver 8002
+ 1635  cd wo
+ 1636  cd..
+ 1637  ls
+ 1638  cd ..
+ 1639  cd Integration/
+ 1640  cd VT/
+ 1641  ls
+ 1642  cd dist/
+ 1643  ls
+ 1644  cd VTAT/
+ 1645  ./VTAT runserver 8001
+ 1646  cd /proc/
+ 1647  ls
+ 1648  cd bus/
+ 1649  ls
+ 1650  cd
+ 1651  cd Documents/
+ 1652  ls
+ 1653  cd work/
+ 1654  ls
+ 1655  mkdir perl
+ 1656  ls
+ 1657  cd ..
+ 1658  rename perl perl_ex
+ 1659  rename -h
+ 1660  cd work/
+ 1661  ls
+ 1662  rename perl perl_ex
+ 1663  mv perl perl_ex
+ 1664  ls
+ 1665  cd perl_ex/
+ 1666  ls
+ 1667  perl --version
+ 1668  perl -w "hello world";
+ 1669  perl -h
+ 1670  perl -e "hello world";
+ 1671  perl -s "hello world";
+ 1672  perl --e "hello world";
+ 1673  perl -e "hello world";
+ 1674  perl -e "hello world"
+ 1675  perl -e helloworld;
+ 1676  perl -e "helloworld;'
+ 1677  perl -e "helloworld;"
+ 1678  perl -e "print helloworld;"
+ 1679  perl -e "print helloworld";
+ 1680  perl -e "print 'helloworld'";
+ 1681  perl -e "print 'helloworld'\n";
+ 1682  perl -e "print 'helloworld\n'";
+ 1683  perl -e "print 'helloworld'\n";
+ 1684  perl -e "print 'helloworld\n'";
+ 1685  perl -e 'print "helloworld\n"';
+ 1686  vi hello.pl
+ 1687  chmod u+x hello.pl 
+ 1688  ls
+ 1689  ./hello.pl 
+ 1690  perl hello.pl
+ 1691  vi hello.pl
+ 1692  perl hello.pl
+ 1693  perl --version
+ 1694  vi hello.pl
+ 1695  perl --version
+ 1696  perl hello.pl
+ 1697  vi hello.pl
+ 1698  perl hello.pl
+ 1699  vi hello.pl
+ 1700  perl hello.pl
+ 1701  vi hello.pl
+ 1702  perl hello.pl
+ 1703  vi hello.pl
+ 1704  perl hello.pl
+ 1705  vi hello.pl
+ 1706  perl hello.pl
+ 1707  vi hello.pl
+ 1708  perl hello.pl
+ 1709  vi hello.pl
+ 1710  vi User_input.pl
+ 1711  perl User_input.pl
+ 1712  vi User_input.pl
+ 1713  perl User_input.pl
+ 1714  vi User_input.pl
+ 1715  perl User_input.pl
+ 1716  vi User_input.pl
+ 1717  perl User_input.pl
+ 1718  vi User_input.pl
+ 1719  perl User_input.pl
+ 1720  vi User_input.pl
+ 1721  perl User_input.pl
+ 1722  vi User_input.pl
+ 1723  perl User_input.pl
+ 1724  vi User_input.pl
+ 1725  perl User_input.pl
+ 1726  vi User_input.pl
+ 1727  perl User_input.pl
+ 1728  vi User_input.pl
+ 1729  perl User_input.pl
+ 1730  vi User_input.pl
+ 1731  perl User_input.pl
+ 1732  vi User_input.pl
+ 1733  perl User_input.pl
+ 1734  vi User_input.pl
+ 1735  perl User_input.pl
+ 1736  vi User_input.pl
+ 1737  perl User_input.pl
+ 1738  vi User_input.pl
+ 1739  perl User_input.pl
+ 1740  vi User_input.pl
+ 1741  perl User_input.pl
+ 1742  vi User_input.pl
+ 1743  perl User_input.pl
+ 1744  vi User_input.pl
+ 1745  perl User_input.pl
+ 1746  vi User_input.pl
+ 1747  perl User_input.pl
+ 1748  vi User_input.pl
+ 1749  perl User_input.pl
+ 1750  vi User_input.pl
+ 1751  perl User_input.pl
+ 1752  vi User_input.pl
+ 1753  perl User_input.pl
+ 1754  vi User_input.pl
+ 1755  perl User_input.pl
+ 1756  vi User_input.pl
+ 1757  perl User_input.pl
+ 1758  vi User_input.pl
+ 1759  perl User_input.pl
+ 1760  vi User_input.pl
+ 1761  perl User_input.pl
+ 1762  vi User_input.pl
+ 1763  perl User_input.pl
+ 1764  vi User_input.pl
+ 1765  perl User_input.pl
+ 1766  vi User_input.pl
+ 1767  perl User_input.pl
+ 1768  vi User_input.pl
+ 1769  perl User_input.pl
+ 1770  vi User_input.pl
+ 1771  perl User_input.pl
+ 1772  vi User_input.pl
+ 1773  perl User_input.pl
+ 1774  vi User_input.pl
+ 1775  perl User_input.pl
+ 1776  vi User_input.pl
+ 1777  perl User_input.pl
+ 1778  vi User_input.pl
+ 1779  perl User_input.pl
+ 1780  vi User_input.pl
+ 1781  perl User_input.pl
+ 1782  cd 
+ 1783  ls
+ 1784  cd /var/lib/
+ 1785  ls
+ 1786  cd 
+ 1787  ls
+ 1788  cd .jenkins/
+ 1789  ls
+ 1790  cd user
+ 1791  cd users
+ 1792  ls
+ 1793  cd admin/
+ 1794  ls
+ 1795  vi config.xml 
+ 1796  ls
+ 1797  ./start_django_and_cherrypy.py 
+ 1798  cd In
+ 1799  cd Documents/
+ 1800  ls
+ 1801  cd Integration/
+ 1802  ls
+ 1803  cd Jenkins_ex
+ 1804  mkdir Jenkins_ex
+ 1805  ls
+ 1806  cd Jenkins_ex/
+ 1807  ls
+ 1808  java -jar jenkins.war
+ 1809  ls
+ 1810  rm -rf jenkins.war 
+ 1811  ls
+ 1812  cd /etc
+ 1813  ls
+ 1814  cd sysconfig
+ 1815  cd
+ 1816  cd .jenkins/
+ 1817  ls
+ 1818  cd secrets/
+ 1819  ls
+ 1820  cat initialAdminPassword 
+ 1821  ls
+ 1822  cd ,,
+ 1823  cd ..
+ 1824  ls
+ 1825  cd user
+ 1826  cd users
+ 1827  ls
+ 1828  cd admin/
+ 1829  ls
+ 1830  vi config.xml 
+ 1831  cd
+ 1832  cd /var/
+ 1833  cd lib/
+ 1834  ls
+ 1835  cd jenkins
+ 1836  cd
+ 1837  locate jenkins
+ 1838  ls
+ 1839  ls -a
+ 1840  rm -rf .jenkins/
+ 1841  cd /var/
+ 1842  cd l
+ 1843  cd loo
+ 1844  cd log
+ 1845  ls
+ 1846  ls -l jennkins
+ 1847  ls -l jenkins
+ 1848  pip install -U py2app
+ 1849  cd
+ 1850  cd Documents/
+ 1851  ls
+ 1852  cd PYBrowse/
+ 1853  ls
+ 1854  cd myapp/
+ 1855  ls
+ 1856  ./manage.py runserver 8001
+ 1857  ls
+ 1858  ./start_django_and_cherrypy.py 
+ 1859  pip install cherrypy
+ 1860  sudo pip install cherrypy
+ 1861  ./start_django_and_cherrypy.py 
+ 1862  ./manage.py runserver 8001
+ 1863  sudo pip install paste
+ 1864  ./manage.py runserver 8001
+ 1865  ./start_django_and_cherrypy.py 
+ 1866  sudo ./start_django_and_cherrypy.py 
+ 1867  vi start_django_and_cherrypy.py 
+ 1868  sudo ./start_django_and_cherrypy.py 
+ 1869  ./start_django_and_cherrypy.py 
+ 1870  sudo ./start_django_and_cherrypy.py 
+ 1871  vi start_django_and_cherrypy.py 
+ 1872  sudo ./start_django_and_cherrypy.py 
+ 1873  python
+ 1874  python3
+ 1875  pip3 install cherrypy
+ 1876  python3
+ 1877  ./start_django_and_cherrypy.py 
+ 1878  python start_django_and_cherrypy.py 
+ 1879  sudo python start_django_and_cherrypy.py 
+ 1880  vi start_django_and_cherrypy.py 
+ 1881  ./start_django_and_cherrypy.py 
+ 1882  sudo ./start_django_and_cherrypy.py 
+ 1883  vi start_django_and_cherrypy.py 
+ 1884  sudo ./start_django_and_cherrypy.py 
+ 1885  vi start_django_and_cherrypy.py 
+ 1886  ./start_django_and_cherrypy.py 
+ 1887  sudo ./start_django_and_cherrypy.py 
+ 1888  vi start_django_and_cherrypy.py 
+ 1889  sudo ./start_django_and_cherrypy.py 
+ 1890  vi start_django_and_cherrypy.py 
+ 1891  sudo ./start_django_and_cherrypy.py 
+ 1892  vi start_django_and_cherrypy.py 
+ 1893  sudo ./start_django_and_cherrypy.py 
+ 1894  vi start_django_and_cherrypy.py 
+ 1895  sudo ./start_django_and_cherrypy.py 
+ 1896  vi start_django_and_cherrypy.py 
+ 1897  gedit start_django_and_cherrypy.py 
+ 1898  pyinstaller --name=myapp myapp/manage.py runserver
+ 1899  pyinstaller --name=myapp myapp/manage.py runserver
+ 1900  gedit start_django_and_cherrypy.py 
+ 1901  cd myapp/
+ 1902  ls
+ 1903  ./start_django_and_cherrypy.py 
+ 1904  sudo ./start_django_and_cherrypy.py 
+ 1905  java -v
+ 1906  java -version
+ 1907  cd
+ 1908  cd Documents/
+ 1909  ls
+ 1910  cd IN
+ 1911  cd PYBrowse/
+ 1912  ls
+ 1913  cd myapp/
+ 1914  ls
+ 1915  ./manage.py shell
+ 1916  cd /usr
+ 1917  ls
+ 1918  cd bin/
+ 1919  ls
+ 1920  cd Documents/
+ 1921  ls
+ 1922  cd PYBrowse/
+ 1923  ls
+ 1924  cd myapp/
+ 1925  ls
+ 1926  ./manage.py shell
+ 1927  python3
+ 1928  ipython
+ 1929  ls
+ 1930  cd Sensor_Processing_Proj/
+ 1931  ls
+ 1932  git status
+ 1933  ls
+ 1934  cd..
+ 1935  cd
+ 1936  cd Documents/
+ 1937  ls
+ 1938  sudo apt-get install git-core
+ 1939  sudo apt-get install gitolite
+ 1940  sudo apt-get update
+ 1941  sudo apt-get install gitolite
+ 1942  apt-cache search gitolite
+ 1943  sudo apt-get install git gitolite3
+ 1944  cd .ssh
+ 1945  ls
+ 1946  vi id_rsa.pub 
+ 1947  udo adduser    --system    --shell /bin/bash    --gecos 'git version control'    --group    --disabled-password \
+ 1948  cd
+ 1949  sudo adduser    --system    --shell /bin/bash    --gecos 'git version control'    --group    --disabled-password    --home /home/gitolite votary
+ 1950  ls
+ 1951  mkdir jyothi
+ 1952  cd jyothi/
+ 1953  git clone votary_gitolite@192.168.4.124:gitolite:admin
+ 1954  cd
+ 1955  sudo apt-get install gitolite3
+ 1956  clear
+ 1957  sudo apt-get install gitolite3
+ 1958  cd jyothi/
+ 1959  git clone votary_gitolite@192.168.4.124:gitolite3:admin
+ 1960  sudo git clone votary_gitolite@192.168.4.124:gitolite:admin
+ 1961  sudo userdel votary_gitolite
+ 1962  sudo rm -rf /home/votary_gitolite/
+ 1963  ls
+ 1964  cd 
+ 1965  rm -rf jyothi/
+ 1966  clear
+ 1967  sudo -i
+ 1968  sudo apt-get install gitolite3
+ 1969  ls
+ 1970  cd git_code
+ 1971  mkdir  git_code
+ 1972  cd git_code/
+ 1973  cd ..
+ 1974  scp ~/.ssh/id_rsa.pub naluvjyo@votary_gitolite_192.168.4.124:/git_code/votary_gitolite-admin.pub
+ 1975  scp ~/.ssh/id_rsa.pub votary_gitolite@192.168.4.124:/home/votary_gitolite-admin.pub
+ 1976  sudo scp ~/.ssh/id_rsa.pub votary_gitolite@192.168.4.124:/home/votary_gitolite-admin.pub
+ 1977  sudo scp ~/.ssh/id_rsa.pub votary_gitolite@192.168.4.124:/home/votary_gitolite-id-rsa.pub
+ 1978  sudo scp ~/.ssh/id_rsa.pub votary_gitolite@192.168.4.124:/home/votary_gitolite/admin.pub
+ 1979  sudo a-t­get­install gitolite3
+ 1980  cd .ssh/
+ 1981  ls
+ 1982  sudo apt-get install gitolite3
+ 1983  sudo apt-get update
+ 1984  sudo apt-get install gitolite3
+ 1985  ps -A | grep apt-get
+ 1986  ps -aux | grep 'apt-get'
+ 1987  sudo kill -9 4143
+ 1988  ps -aux | grep 'apt-get'
+ 1989  ps -A | grep apt-get
+ 1990  sudo apt-get install gitolite3
+ 1991  sudo dpkg --configure -a
+ 1992  ls
+ 1993  cd .ssh/
+ 1994  ls
+ 1995  pwd
+ 1996  cd
+ 1997  sudo su
+ 1998  cd ~/.ssh/
+ 1999  ls
+ 2000  ;s -l ~/.ssh/id*
+ 2001  ls -l ~/.ssh/id*
+ 2002  cd
+ 2003  scp /home/naluvjyo/.ssh/id_rsa.pub gitolite@192.168.4.124 /home/gitolite/
+ 2004  sudo scp /home/naluvjyo/.ssh/id_rsa.pub gitolite@192.168.4.124 /home/gitolite/
+ 2005  sudo scp /home/naluvjyo/.ssh/id_rsa.pub gitolite@192.168.4.124/home/gitolite:
+ 2006  sudo scp /home/naluvjyo/.ssh/id_rsa.pub gitolite@192.168.4.124:
+ 2007  passwd gitolite
+ 2008  sudo scp /home/naluvjyo/.ssh/id_rsa.pub gitolite@192.168.4.124:
+ 2009  sudo scp /home/naluvjyo/.ssh/id_rsa.pub gitolite@192.168.4.124:/home/gitolite/admin.pub
+ 2010  sudo apt-get install gitolite3
+ 2011  sudo apt-get install git-core
+ 2012  cd .ssh/
+ 2013  ls
+ 2014  history >gitolitesteps
+ 1033  notify-send 'title' 'message'
+ 1034  toilet -F border -F gay "CRAZY"
+ 1035  toilet -F border -F gay "CRAZY"sudo apt install toilet
+ 1036  sudo apt install toilet
+ 1037  toilet -F border -F gay "CRAZY"sudo apt install toilet
+ 1038  sudo lsof | tee >(zenity --progress --pulsate) > out
+ 1039  zenity --question --text "Are you sure you want to shutdown?"; echo $?
+ 1040  ans=$(zenity --scale --text "pick a number" --min-value=2 --max-value=100 --value=2 --step 2); echo "$ans"
+ 1041  sudo lsof | zenity --text-info --width 530
+ 1042  zenity --question --text "Are you sure you want to shutdown?"; echo $?
+ 1043  ipython
+ 1044  zenity --question --text "Are you sure you want to shutdown?"; echo $?notify-send "Hello" "Hello world"
+ 1045  notify-send "Hello" "Hello world"
+ 1046  whiptail --msgbox "Hello world" 10 30
+ 1047  whiptail --msgbox "Hello world" 10 20
+ 1048  whiptail --msgbox "Hello world" 10 30
+ 1049  ipython
+ 1050  cd Documents/
+ 1051  ls
+ 1052  cd Integration/
+ 1053  ls
+ 1054  cd VTAT/
+ 1055  ls
+ 1056  ./manage.py runserver 8001
+ 1057  cd Documents/
+ 1058  cd Integration/
+ 1059  ls 
+ 1060  cd VTAT/
+ 1061  ./manage.py runserver 8001
+ 1062  ipython
+ 1063  cd work/
+ 1064  ls
+ 1065  cd ne
+ 1066  cd new
+ 1067  ls
+ 1068  cd VATAT/
+ 1069  ls
+ 1070  cd new
+ 1071  ls
+ 1072  cd dist/
+ 1073  ls
+ 1074  cd VTAT/
+ 1075  la
+ 1076  ./VTAT runserver 8001
+ 1077  python3
+ 1078  cd usr
+ 1079  cd /usr/
+ 1080  cd bin/
+ 1081  ps -a
+ 1082  adb --help
+ 1083  adb devices
+ 1084  cd work/
+ 1085  ls
+ 1086  cd VATAT/
+ 1087  ls
+ 1088  adb devices
+ 1089  ipython
+ 1090  cd Documents/
+ 1091  ls
+ 1092  cd IN
+ 1093  cd Integration/
+ 1094  ls
+ 1095  cd VTAT/
+ 1096  ls
+ 1097  ./manage.py runserver 8002
+ 1098  ./manage.py runserver 0.0.0.0:8002
+ 1099  cd Downloads/
+ 1100  java -jar adbportforward.jar client adblocation=/usr/bin/
+ 1101  java -jar adbportforward.jar client adblocation=/usr/bin
+ 1102  java -jar adbportforward.jar client adblocation=/usr/bin/adb
+ 1103  java -jar adbportforward.jar client adblocation=[adb location] 
+ 1104  remotehost=[ip of machine to which android device is connected]
+ 1105  java -jar adbportforward.jar client adblocation=[adb location] 
+ 1106  remotehost=[ip of machine to which android device is connected]
+ 1107  java -jar adbportforward.jar client adblocation=[adb location] remotehost=192.168.4.124
+ 1108  java -jar adbportforward.jar client adblocation=[=/usr/bin remotehost=192.168.4.124
+ 1109  adb kill-server
+ 1110  ps -a
+ 1111  java -jar adbportforward.jar client adblocation=[=/usr/bin remotehost=192.168.4.124
+ 1112  java -jar adbportforward.jar client adblocation=/usr/bin remotehost=192.168.4.124
+ 1113  adb devices
+ 1114  adb forward tcp:7612 tcp:7612
+ 1115  java -jar adbportforward.jar client adblocation=/usr/bin remotehost=192.168.4.124
+ 1116  java -jar adbportforward.jar client adblocation=/usr/bin remotehost=192.168.4.124 port=5555
+ 1117  java -jar adbportforward.jar client adblocation=/usr/bin remotehost=192.168.4.124
+ 1118  java -jar adbportforward.jar client adblocation=/usr/bin
+ 1119  java -jar adbportforward.jar client adblocation=/usr/bin remotehost=192.168.4.124
+ 1120  java -jar adbportforward.jar client adblocation=/usr/bin remotehost=192.168.4.124 port=60000
+ 1121  sudo su
+ 1122  appium
+ 1123  ipython
+ 1124  adb devices
+ 1125  cd Documents/
+ 1126  ls
+ 1127  cd Integration/
+ 1128  ls
+ 1129  cd VTAT/
+ 1130  ls
+ 1131  ./manage.py runserver 8002
+ 1132  ls
+ 1133  cd Sensor_Processing_Proj/
+ 1134  ls
+ 1135  cd poc_dm/
+ 1136  ls
+ 1137  python sensor.py 
+ 1138  ipython
+ 1139  cd Documents/
+ 1140  ls
+ 1141  cd new
+ 1142  mkdir new
+ 1143  ls
+ 1144  cd new
+ 1145  ls
+ 1146  pip install virtualenv
+ 1147  cd /usr/local/lib/python2.7/dist-packages/
+ 1148  ls
+ 1149  source env/bin/activate
+ 1150  cd ..
+ 1151  cd ...
+ 1152  cd ..
+ 1153  cd
+ 1154  cd Documents/
+ 1155  ls
+ 1156  cd new/
+ 1157  ls
+ 1158  pip install virtualenv
+ 1159  sudo xcode-select --install
+ 1160  cd ..
+ 1161  cd PYBrowse
+ 1162  mkdir PYBrowse
+ 1163  cd PYBrowse/
+ 1164  which virtualenv
+ 1165  source env/bin/activate
+ 1166  virtualenv -p /Library/Frameworks/Python.framework/Version/2.7/bin/python2.7 env
+ 1167  ls
+ 1168  virtualenv -p /usr/bin/python2.7 my_project
+ 1169  source env/bin/activate
+ 1170  ls
+ 1171  rm -rf my_project/
+ 1172  ls
+ 1173  virtualenv -p /usr/bin/python2.7 env
+ 1174  source env/bin/activate
+ 1175  pip install pywebview
+ 1176  pip install pyobjc-core
+ 1177  pip install pyobjc
+ 1178  pywebview -version
+ 1179  pywebview --version
+ 1180  touch main.py
+ 1181  chmod +x main.py
+ 1182  gedit main.py
+ 1183  vi main.py
+ 1184  python main.py
+ 1185  vi main.py
+ 1186  python main.py
+ 1187  vi main.py
+ 1188  python main.py
+ 1189  vi main.py
+ 1190  python main.py
+ 1191  apt-get install python-qt4
+ 1192  pip install qt4
+ 1193  pip install qt
+ 1194  sudo apt-get install python-qt4
+ 1195  python main.py
+ 1196  ls
+ 1197  cd env
+ 1198  ls
+ 1199  sudo apt-get install python-dev python-qt4 python-qt4-dev python-sip python-sip-dev build-essential gfortran libqt4-dev qt4-qmake libpq-dev libsqlite3-dev qt4-dev-tools qt4-doc unixodbc-dev pyqt4-dev-tools
+ 1200  ls
+ 1201  cd ..
+ 1202  ls
+ 1203  python main.py
+ 1204  ls
+ 1205  cd softwares/
+ 1206  ls
+ 1207  make
+ 1208  python configure.py
+ 1209  python configure.py --incdr="$VIRTUAL_ENV/include/python2.7"
+ 1210  cd ..
+ 1211  ls
+ 1212  cd env/
+ 1213  ls
+ 1214  cd include/
+ 1215  cd ..
+ 1216  python configure.py
+ 1217  cd env/
+ 1218  python configure.py
+ 1219  cd ..
+ 1220  cd softwares/
+ 1221  ls
+ 1222  cd PyQt3D_gpl-5.9/
+ 1223  ls
+ 1224  python configure.py --incdr="$VIRTUAL_ENV/include/python2.7"
+ 1225  python configure.py --incdir="$VIRTUAL_ENV/include/python2.7"
+ 1226  python configure.py
+ 1227  ls
+ 1228  python configure.py --incdir="$env/include/python2.7"
+ 1229  $VIRTUAL_ENV
+ 1230  echo $VIRTUAL_ENV
+ 1231  cd ..
+ 1232  cd env/
+ 1233  ls
+ 1234  cd include/
+ 1235  ls
+ 1236  cd ..
+ 1237  cd softwares/
+ 1238  ls
+ 1239  cd PyQt3D_gpl-5.9/
+ 1240  ls
+ 1241  $VIRTUAL_ENV
+ 1242  echo $VIRTUAL_ENV
+ 1243  python configure.py --incdir="$env/include/python2.7"
+ 1244  python configure.py --incdir="$VIRTUAL_ENV/include/python2.7"
+ 1245  cd ..
+ 1246  ls
+ 1247  cd softwares/
+ 1248  ls
+ 1249  cd PyQt-x11-gpl-4.10.4/
+ 1250  ls
+ 1251  cd ..
+ 1252  python config.py
+ 1253  pip install SIP
+ 1254  ls
+ 1255  cd sip-4.19.3/
+ 1256  ls
+ 1257  python configure.py
+ 1258  make
+ 1259  sudo make install
+ 1260  cd ..
+ 1261  cd PyQt-x11-gpl-4.10.4/
+ 1262  ls
+ 1263  python configur-ng.py
+ 1264  python configure-ng.py
+ 1265  make
+ 1266  make install
+ 1267  python
+ 1268  python configure-ng.py  --incdir="$VIRTUAL_ENV/include/python2.7"
+ 1269  cd ..
+ 1270  pip install SIP
+ 1271  cd softwares/
+ 1272  ls
+ 1273  cd sip-4.19.3/
+ 1274  ls
+ 1275  python configure.py 
+ 1276  make
+ 1277  sudo make install
+ 1278  cd ..
+ 1279  cd PyQt-x11-gpl-4.10.4/
+ 1280  python configure.py 
+ 1281  make
+ 1282  sudo make install
+ 1283  python
+ 1284  python configure.py -q /usr/bin/qmake-qt4
+ 1285  make
+ 1286  make install
+ 1287  python
+ 1288  python configure.py --incdir="$VIRTUAL_ENV/include/python2.7"
+ 1289  cd ..
+ 1290  cd softwares/
+ 1291  ls
+ 1292  cd sip-4.19.3/
+ 1293  ls
+ 1294  python configure.py 
+ 1295  make
+ 1296  suso make install
+ 1297  sudo make install
+ 1298  cd ..
+ 1299  cd PyQt-x11-gpl-4.10.4/
+ 1300  ls
+ 1301  cd ..
+ 1302  wget -O PyQt-x11-gpl-4.11.tar.gz http://sourceforge.net/projects/pyqt/files/PyQt4/PyQt-4.11/PyQt-x11-gpl-4.11.tar.gz
+ 1303  tar -xvzf PyQt-x11-gpl-4.11.tar.gz0
+ 1304  ls
+ 1305  cd PyQt-x11-gpl-4.11/
+ 1306  ls
+ 1307  make
+ 1308  sudo amke install
+ 1309  sudo make install
+ 1310  python
+ 1311  make
+ 1312  make clean
+ 1313  ls
+ 1314  cd ..
+ 1315  make clean
+ 1316  ls
+ 1317  cd PyQt-x11-gpl-4.10.4/
+ 1318  make clean
+ 1319  cd ..
+ 1320  ls
+ 1321  cd PyQt-x11-gpl-4.11/
+ 1322  ls
+ 1323  make clean
+ 1324  make
+ 1325  make clean
+ 1326  ls
+ 1327  vi configure-ng.py 
+ 1328  ls
+ 1329  python configure.py --incdir="$VIRTUAL_ENV/include/python2.7"
+ 1330  python configure.py -q "$VIRTUAL_ENV/include/python2.7"
+ 1331  echo $VIRTUAL_ENV
+ 1332  cd $VIRTUAL_ENV/include/python2.7
+ 1333  ls
+ 1334  cd -
+ 1335  python configure-ng.py -q /usr/bin/qmake-qt4
+ 1336  make
+ 1337  ls
+ 1338  make clean
+ 1339  sudo make
+ 1340  make clean
+ 1341  cd ..
+ 1342  ls
+ 1343  cd PyQt-x11-gpl-4.10.4/
+ 1344  make clean
+ 1345  ls
+ 1346  cd ..
+ 1347  cd PyQt-x11-gpl-4.11/
+ 1348  ls
+ 1349  python configure.py -h
+ 1350  python configure.py -q /usr/bin/qmake
+ 1351  make
+ 1352  make clean
+ 1353  make
+ 1354  python configure.py
+ 1355  make
+ 1356  make clean
+ 1357  sudo python configure-ng.py -q /usr/bin/qmake-qt4
+ 1358  make
+ 1359  make clean
+ 1360  ls
+ 1361  cd ..
+ 1362  ls
+ 1363  rm -rf .*
+ 1364  ls
+ 1365  rm -rf PyQt-x11-gpl-4.1
+ 1366  rm -rf PyQt-x11-gpl-4.11
+ 1367  rm -rf PyQt-x11-gpl-4.10`
+ 1368  rm -rf PyQt-x11-gpl-4.10
+ 1369  ls
+ 1370  rm -rf PyQt-x11-gpl-4.11
+ 1371  sudo rm -rf PyQt-x11-gpl-4.11
+ 1372  ls
+ 1373  sudo rf -rm PyQt-x11-gpl-4.10.4
+ 1374  sudo rm -rf PyQt-x11-gpl-4.10.4
+ 1375  ls
+ 1376  sudo rm -rf PyQt-x11-gpl-4.11.tar.gz 
+ 1377  ls
+ 1378  sudo rm -rf PyQt-x11-gpl-4.10.4.tar.gz 
+ 1379  ls
+ 1380  sudo rm -rf sip-4.19.3
+ 1381  sudo rm -rf sip-4.19.3.tar.gz 
+ 1382  ls
+ 1383  make
+ 1384  make clean
+ 1385  ls
+ 1386  sudo rm -rf sip-4.19.3.tar.gz 
+ 1387  ls
+ 1388  sudo apt-get install python2.7-dev libxext-dev qt4-dev-tools build-essential
+ 1389  wget -O sip-4.16.1.tar.gz http://sourceforge.net/projects/pyqt/files/sip/sip-4.16.1/sip-4.16.1.tar.gz
+ 1390  tar -xvzf sip-4.16.1.tar.gz
+ 1391  cd sip-4.16.1/
+ 1392  python configure.py 
+ 1393  make
+ 1394  sudo make install
+ 1395  cd ..
+ 1396  ls
+ 1397  wget -O PyQt-x11-gpl-4.11.tar.gz http://sourceforge.net/projects/pyqt/files/PyQt4/PyQt-4.11/PyQt-x11-gpl-4.11.tar.gz
+ 1398  cd PyQt-x11-gpl-4.11/
+ 1399  make
+ 1400  sudo make install
+ 1401  python
+ 1402  cd ..
+ 1403  ls
+ 1404  python main.py
+ 1405  deactivate
+ 1406  ls
+ 1407  python main.py 
+ 1408  sudo pip install pywebview
+ 1409  python main.py 
+ 1410  py2applet --make-setup main.py
+ 1411  sudo find / -name "py2applet" -type f
+ 1412  sudo pip install py2app
+ 1413  man py2applet
+ 1414  py2applet
+ 1415  py2applet --help
+ 1416  py2applet --make-setup main.py
+ 1417  ls
+ 1418  python
+ 1419  ipython
+ 1420  ppython configure-ng.py -h
+ 1421  python configure-ng.py -h
+ 1422  ipython
+ 1423  python3
+ 1424  cd Documents/
+ 1425  ls
+ 1426  cd Integration/
+ 1427  ls
+ 1428  cd VTAT/
+ 1429  ./manage.py runserver 8001
+ 1430  cd ..
+ 1431  cd work/
+ 1432  cd VTAT/
+ 1433  ls
+ 1434  ccd ..
+ 1435  cd ..
+ 1436  cd VATAT/
+ 1437  ls
+ 1438  cd be
+ 1439  cd new
+ 1440  ls
+ 1441  cd dist/
+ 1442  ls
+ 1443  cd Vt
+ 1444  cd VTAT/
+ 1445  ls
+ 1446  ./VTAT runserver 8001
+ 1447  cd Documents/
+ 1448  ls
+ 1449  cd PYBrowse/
+ 1450  ls
+ 1451  python main.py
+ 1452  vi main.py
+ 1453  python main.py
+ 1454  vi main.py
+ 1455  vi setup.py 
+ 1456  python setup.py py2app
+ 1457  vi setup.py 
+ 1458  python setup.py py2app
+ 1459  vi setup.py 
+ 1460  python setup.py py2app
+ 1461  vi setup.py 
+ 1462  python setup.py py2app
+ 1463  python main.py
+ 1464  python setup.py py2app
+ 1465  ls
+ 1466  rm -rf dist/
+ 1467  rm -rf build/
+ 1468  ls
+ 1469  pip install paste
+ 1470  vi main.py 
+ 1471  python main.py 
+ 1472  vi main.py 
+ 1473  python main.py 
+ 1474  python main.py
+ 1475  cd ..
+ 1476  cd Integration/
+ 1477  ls
+ 1478  cd VTAT/
+ 1479  ls
+ 1480  cd ..
+ 1481  ls
+ 1482  cd VT
+ 1483  ls
+ 1484  pyinstaller --name=VTAT VTAT/manage.py
+ 1485  ls
+ 1486  cd dist/
+ 1487  ls
+ 1488  cd VTAT/
+ 1489  ls
+ 1490  ./VTAT runserver 8002
+ 1491  locate libpython
+ 1492  cd /usr/
+ 1493  cd lib
+ 1494  ls
+ 1495  ls -l
+ 1496  ls |libpython
+ 1497  ls | grep "libpython"\
+ 1498  ls | grep "libpython"
+ 1499  ls
+ 1500  locate libpython2.7
+ 1501  vi setup.py
+ 1502  cd..
+ 1503  cd
+ 1504  cd Documents/
+ 1505  ls
+ 1506  cd PYBrowse/
+ 1507  ls
+ 1508  vi setup.py 
+ 1509  python setup.py
+ 1510  python setup.py PyInstaller
+ 1511  python setup.py pyinstaller
+ 1512  vi setup.py 
+ 1513  python setup.py pyinstaller
+ 1514  python setup.py PyInstaller
+ 1515  python setup.py -h
+ 1516  rm -rf setup.py 
+ 1517  py2applet --make-setup main.py
+ 1518  vi setup.py 
+ 1519  sudo find / -name "py2applet" -type f
+ 1520  rm -rf setup.py 
+ 1521  ls
+ 1522  PyInstaller --make-setup main.py
+ 1523  pyinstaller --make-setup main.py
+ 1524  pyinstaller -h
+ 1525  PyInstaller --help
+ 1526  Pyinstaller --help
+ 1527  pyinstaller --help
+ 1528  man pyinstaller
+ 1529  pyinstaller --help
+ 1530  cd ..
+ 1531  cd 
+ 1532  cd work/
+ 1533  ls
+ 1534  cd VATAT/
+ 1535  ls
+ 1536  cd new/
+ 1537  ls
+ 1538  pyinstaller --name=VTAT ./manage.py
+ 1539  pyinstaller --name=VTAT VTAT/manage.py
+ 1540  cd
+ 1541  cd Documents/Integration/
+ 1542  ls
+ 1543  cd VT/
+ 1544  ls
+ 1545  cd VTAT/
+ 1546  ls
+ 1547  ./manage.py runserver 8002
+ 1548  ./manage.py runserver 8001
+ 1549  pwd
+ 1550  cd ..
+ 1551  ls 
+ 1552  cd ..
+ 1553  cd PYBrowse/
+ 1554  ls
+ 1555  python main.py
+ 1556  vi main.py
+ 1557  python main.py
+ 1558  vi main.py
+ 1559  python main.py
+ 1560  vi main.py
+ 1561  python main.py
+ 1562  vi main.py
+ 1563  python main.py
+ 1564  vi main.py
+ 1565  python main.py
+ 1566  vi main.py
+ 1567  python main.py
+ 1568  vi main.py
+ 1569  python main.py
+ 1570  vi main.py
+ 1571  python main.py
+ 1572  vi main.py
+ 1573  python main.py
+ 1574  vi main.py
+ 1575  cd work/
+ 1576  ls
+ 1577  cd
+ 1578  cd Documents/
+ 1579  ls
+ 1580  cd PYBrowse/
+ 1581  ls
+ 1582  vi main.py
+ 1583  ./main.py
+ 1584  vi main.py
+ 1585  python main.py
+ 1586  vi main.py
+ 1587  python main.py
+ 1588  vi main.py
+ 1589  python main.py
+ 1590  cd ..\
+ 1591  cd ..
+ 1592  ls
+ 1593  cd Integration/
+ 1594  ls
+ 1595  cd VT/
+ 1596  ls
+ 1597  ls
+ 1598  ./manage.py runserver 8002
+ 1599  ./manage.py runserver 8001
+ 1600  sudo lsof -i:8001
+ 1601  sudo kill -9 16345
+ 1602  ls
+ 1603  sudo lsof -i:8001
+ 1604  cd Documents/
+ 1605  ls
+ 1606  cd PYBrowse/
+ 1607  ls
+ 1608  python main.py 
+ 1609  vi main.py 
+ 1610  python main.py 
+ 1611  cd ..
+ 1612  cd Integration/
+ 1613  ls
+ 1614  cd VT/
+ 1615  ls
+ 1616  cd VTAT/
+ 1617  ls
+ 1618  ./manage.py runserver 8001
+ 1619  ./manage.py runserver 8002
+ 1620  cd wo
+ 1621  cd..
+ 1622  ls
+ 1623  cd ..
+ 1624  cd Integration/
+ 1625  cd VT/
+ 1626  ls
+ 1627  cd dist/
+ 1628  ls
+ 1629  cd VTAT/
+ 1630  ./VTAT runserver 8001
+ 1631  cd /proc/
+ 1632  ls
+ 1633  cd bus/
+ 1634  ls
+ 1635  cd
+ 1636  cd Documents/
+ 1637  ls
+ 1638  cd work/
+ 1639  ls
+ 1640  mkdir perl
+ 1641  ls
+ 1642  cd ..
+ 1643  rename perl perl_ex
+ 1644  rename -h
+ 1645  cd work/
+ 1646  ls
+ 1647  rename perl perl_ex
+ 1648  mv perl perl_ex
+ 1649  ls
+ 1650  cd perl_ex/
+ 1651  ls
+ 1652  perl --version
+ 1653  perl -w "hello world";
+ 1654  perl -h
+ 1655  perl -e "hello world";
+ 1656  perl -s "hello world";
+ 1657  perl --e "hello world";
+ 1658  perl -e "hello world";
+ 1659  perl -e "hello world"
+ 1660  perl -e helloworld;
+ 1661  perl -e "helloworld;'
+ 1662  perl -e "helloworld;"
+ 1663  perl -e "print helloworld;"
+ 1664  perl -e "print helloworld";
+ 1665  perl -e "print 'helloworld'";
+ 1666  perl -e "print 'helloworld'\n";
+ 1667  perl -e "print 'helloworld\n'";
+ 1668  perl -e "print 'helloworld'\n";
+ 1669  perl -e "print 'helloworld\n'";
+ 1670  perl -e 'print "helloworld\n"';
+ 1671  vi hello.pl
+ 1672  chmod u+x hello.pl 
+ 1673  ls
+ 1674  ./hello.pl 
+ 1675  perl hello.pl
+ 1676  vi hello.pl
+ 1677  perl hello.pl
+ 1678  perl --version
+ 1679  vi hello.pl
+ 1680  perl --version
+ 1681  perl hello.pl
+ 1682  vi hello.pl
+ 1683  perl hello.pl
+ 1684  vi hello.pl
+ 1685  perl hello.pl
+ 1686  vi hello.pl
+ 1687  perl hello.pl
+ 1688  vi hello.pl
+ 1689  perl hello.pl
+ 1690  vi hello.pl
+ 1691  perl hello.pl
+ 1692  vi hello.pl
+ 1693  perl hello.pl
+ 1694  vi hello.pl
+ 1695  vi User_input.pl
+ 1696  perl User_input.pl
+ 1697  vi User_input.pl
+ 1698  perl User_input.pl
+ 1699  vi User_input.pl
+ 1700  perl User_input.pl
+ 1701  vi User_input.pl
+ 1702  perl User_input.pl
+ 1703  vi User_input.pl
+ 1704  perl User_input.pl
+ 1705  vi User_input.pl
+ 1706  perl User_input.pl
+ 1707  vi User_input.pl
+ 1708  perl User_input.pl
+ 1709  vi User_input.pl
+ 1710  perl User_input.pl
+ 1711  vi User_input.pl
+ 1712  perl User_input.pl
+ 1713  vi User_input.pl
+ 1714  perl User_input.pl
+ 1715  vi User_input.pl
+ 1716  perl User_input.pl
+ 1717  vi User_input.pl
+ 1718  perl User_input.pl
+ 1719  vi User_input.pl
+ 1720  perl User_input.pl
+ 1721  vi User_input.pl
+ 1722  perl User_input.pl
+ 1723  vi User_input.pl
+ 1724  perl User_input.pl
+ 1725  vi User_input.pl
+ 1726  perl User_input.pl
+ 1727  vi User_input.pl
+ 1728  perl User_input.pl
+ 1729  vi User_input.pl
+ 1730  perl User_input.pl
+ 1731  vi User_input.pl
+ 1732  perl User_input.pl
+ 1733  vi User_input.pl
+ 1734  perl User_input.pl
+ 1735  vi User_input.pl
+ 1736  perl User_input.pl
+ 1737  vi User_input.pl
+ 1738  perl User_input.pl
+ 1739  vi User_input.pl
+ 1740  perl User_input.pl
+ 1741  vi User_input.pl
+ 1742  perl User_input.pl
+ 1743  vi User_input.pl
+ 1744  perl User_input.pl
+ 1745  vi User_input.pl
+ 1746  perl User_input.pl
+ 1747  vi User_input.pl
+ 1748  perl User_input.pl
+ 1749  vi User_input.pl
+ 1750  perl User_input.pl
+ 1751  vi User_input.pl
+ 1752  perl User_input.pl
+ 1753  vi User_input.pl
+ 1754  perl User_input.pl
+ 1755  vi User_input.pl
+ 1756  perl User_input.pl
+ 1757  vi User_input.pl
+ 1758  perl User_input.pl
+ 1759  vi User_input.pl
+ 1760  perl User_input.pl
+ 1761  vi User_input.pl
+ 1762  perl User_input.pl
+ 1763  vi User_input.pl
+ 1764  perl User_input.pl
+ 1765  vi User_input.pl
+ 1766  perl User_input.pl
+ 1767  cd 
+ 1768  ls
+ 1769  cd /var/lib/
+ 1770  ls
+ 1771  cd 
+ 1772  ls
+ 1773  cd .jenkins/
+ 1774  ls
+ 1775  cd user
+ 1776  cd users
+ 1777  ls
+ 1778  cd admin/
+ 1779  ls
+ 1780  vi config.xml 
+ 1781  ls
+ 1782  ./start_django_and_cherrypy.py 
+ 1783  cd In
+ 1784  cd Documents/
+ 1785  ls
+ 1786  cd Integration/
+ 1787  ls
+ 1788  cd Jenkins_ex
+ 1789  mkdir Jenkins_ex
+ 1790  ls
+ 1791  cd Jenkins_ex/
+ 1792  ls
+ 1793  java -jar jenkins.war
+ 1794  ls
+ 1795  rm -rf jenkins.war 
+ 1796  ls
+ 1797  cd /etc
+ 1798  ls
+ 1799  cd sysconfig
+ 1800  cd
+ 1801  cd .jenkins/
+ 1802  ls
+ 1803  cd secrets/
+ 1804  ls
+ 1805  cat initialAdminPassword 
+ 1806  ls
+ 1807  cd ,,
+ 1808  cd ..
+ 1809  ls
+ 1810  cd user
+ 1811  cd users
+ 1812  ls
+ 1813  cd admin/
+ 1814  ls
+ 1815  vi config.xml 
+ 1816  cd
+ 1817  cd /var/
+ 1818  cd lib/
+ 1819  ls
+ 1820  cd jenkins
+ 1821  cd
+ 1822  locate jenkins
+ 1823  ls
+ 1824  ls -a
+ 1825  rm -rf .jenkins/
+ 1826  cd /var/
+ 1827  cd l
+ 1828  cd loo
+ 1829  cd log
+ 1830  ls
+ 1831  ls -l jennkins
+ 1832  ls -l jenkins
+ 1833  pip install -U py2app
+ 1834  cd
+ 1835  cd Documents/
+ 1836  ls
+ 1837  cd PYBrowse/
+ 1838  ls
+ 1839  cd myapp/
+ 1840  ls
+ 1841  ./manage.py runserver 8001
+ 1842  ls
+ 1843  ./start_django_and_cherrypy.py 
+ 1844  pip install cherrypy
+ 1845  sudo pip install cherrypy
+ 1846  ./start_django_and_cherrypy.py 
+ 1847  ./manage.py runserver 8001
+ 1848  sudo pip install paste
+ 1849  ./manage.py runserver 8001
+ 1850  ./start_django_and_cherrypy.py 
+ 1851  sudo ./start_django_and_cherrypy.py 
+ 1852  vi start_django_and_cherrypy.py 
+ 1853  sudo ./start_django_and_cherrypy.py 
+ 1854  ./start_django_and_cherrypy.py 
+ 1855  sudo ./start_django_and_cherrypy.py 
+ 1856  vi start_django_and_cherrypy.py 
+ 1857  sudo ./start_django_and_cherrypy.py 
+ 1858  python
+ 1859  python3
+ 1860  pip3 install cherrypy
+ 1861  python3
+ 1862  ./start_django_and_cherrypy.py 
+ 1863  python start_django_and_cherrypy.py 
+ 1864  sudo python start_django_and_cherrypy.py 
+ 1865  vi start_django_and_cherrypy.py 
+ 1866  ./start_django_and_cherrypy.py 
+ 1867  sudo ./start_django_and_cherrypy.py 
+ 1868  vi start_django_and_cherrypy.py 
+ 1869  sudo ./start_django_and_cherrypy.py 
+ 1870  vi start_django_and_cherrypy.py 
+ 1871  ./start_django_and_cherrypy.py 
+ 1872  sudo ./start_django_and_cherrypy.py 
+ 1873  vi start_django_and_cherrypy.py 
+ 1874  sudo ./start_django_and_cherrypy.py 
+ 1875  vi start_django_and_cherrypy.py 
+ 1876  sudo ./start_django_and_cherrypy.py 
+ 1877  vi start_django_and_cherrypy.py 
+ 1878  sudo ./start_django_and_cherrypy.py 
+ 1879  vi start_django_and_cherrypy.py 
+ 1880  sudo ./start_django_and_cherrypy.py 
+ 1881  vi start_django_and_cherrypy.py 
+ 1882  gedit start_django_and_cherrypy.py 
+ 1883  pyinstaller --name=myapp myapp/manage.py runserver
+ 1884  pyinstaller --name=myapp myapp/manage.py runserver
+ 1885  gedit start_django_and_cherrypy.py 
+ 1886  cd myapp/
+ 1887  ls
+ 1888  ./start_django_and_cherrypy.py 
+ 1889  sudo ./start_django_and_cherrypy.py 
+ 1890  java -v
+ 1891  java -version
+ 1892  cd
+ 1893  cd Documents/
+ 1894  ls
+ 1895  cd IN
+ 1896  cd PYBrowse/
+ 1897  ls
+ 1898  cd myapp/
+ 1899  ls
+ 1900  ./manage.py shell
+ 1901  cd /usr
+ 1902  ls
+ 1903  cd bin/
+ 1904  ls
+ 1905  cd Documents/
+ 1906  ls
+ 1907  cd PYBrowse/
+ 1908  ls
+ 1909  cd myapp/
+ 1910  ls
+ 1911  ./manage.py shell
+ 1912  python3
+ 1913  ipython
+ 1914  ls
+ 1915  cd Sensor_Processing_Proj/
+ 1916  ls
+ 1917  git status
+ 1918  ls
+ 1919  cd..
+ 1920  cd
+ 1921  cd Documents/
+ 1922  ls
+ 1923  sudo apt-get install git-core
+ 1924  sudo apt-get install gitolite
+ 1925  sudo apt-get update
+ 1926  sudo apt-get install gitolite
+ 1927  apt-cache search gitolite
+ 1928  sudo apt-get install git gitolite3
+ 1929  cd .ssh
+ 1930  ls
+ 1931  vi id_rsa.pub 
+ 1932  udo adduser    --system    --shell /bin/bash    --gecos 'git version control'    --group    --disabled-password \
+ 1933  cd
+ 1934  sudo adduser    --system    --shell /bin/bash    --gecos 'git version control'    --group    --disabled-password    --home /home/gitolite votary
+ 1935  ls
+ 1936  mkdir jyothi
+ 1937  cd jyothi/
+ 1938  git clone votary_gitolite@192.168.4.124:gitolite:admin
+ 1939  cd
+ 1940  sudo apt-get install gitolite3
+ 1941  clear
+ 1942  sudo apt-get install gitolite3
+ 1943  cd jyothi/
+ 1944  git clone votary_gitolite@192.168.4.124:gitolite3:admin
+ 1945  sudo git clone votary_gitolite@192.168.4.124:gitolite:admin
+ 1946  sudo userdel votary_gitolite
+ 1947  sudo rm -rf /home/votary_gitolite/
+ 1948  ls
+ 1949  cd 
+ 1950  rm -rf jyothi/
+ 1951  clear
+ 1952  sudo -i
+ 1953  sudo apt-get install gitolite3
+ 1954  ls
+ 1955  cd git_code
+ 1956  mkdir  git_code
+ 1957  cd git_code/
+ 1958  cd ..
+ 1959  scp ~/.ssh/id_rsa.pub naluvjyo@votary_gitolite_192.168.4.124:/git_code/votary_gitolite-admin.pub
+ 1960  scp ~/.ssh/id_rsa.pub votary_gitolite@192.168.4.124:/home/votary_gitolite-admin.pub
+ 1961  sudo scp ~/.ssh/id_rsa.pub votary_gitolite@192.168.4.124:/home/votary_gitolite-admin.pub
+ 1962  sudo scp ~/.ssh/id_rsa.pub votary_gitolite@192.168.4.124:/home/votary_gitolite-id-rsa.pub
+ 1963  sudo scp ~/.ssh/id_rsa.pub votary_gitolite@192.168.4.124:/home/votary_gitolite/admin.pub
+ 1964  sudo a-t­get­install gitolite3
+ 1965  cd .ssh/
+ 1966  ls
+ 1967  sudo apt-get install gitolite3
+ 1968  sudo apt-get update
+ 1969  sudo apt-get install gitolite3
+ 1970  ps -A | grep apt-get
+ 1971  ps -aux | grep 'apt-get'
+ 1972  sudo kill -9 4143
+ 1973  ps -aux | grep 'apt-get'
+ 1974  ps -A | grep apt-get
+ 1975  sudo apt-get install gitolite3
+ 1976  sudo dpkg --configure -a
+ 1977  suo su
+ 1978  sudo su
+ 1979  su
+ 1980  su root
+ 1981  sudo su
+ 1982  sudo apt-get install gitolite3
+ 1983  sudo dpkg --configure -a
+ 1984  ls
+ 1985  cd git_code/
+ 1986  git clone votary_gitolite@192.168.4.124:gitolite-admin
+ 1987  ls
+ 1988  sudo apt-get uninstall gitolite3
+ 1989  sudo apt-get remove gitolite3
+ 1990  sudo apt-get update
+ 1991  sudo apt-get remove gitolite3
+ 1992  sudo su
+ 1993  mkdir tmp
+ 1994  cd tmp
+ 1995  git clone gitolite@192.168.4.124:gitolite:admin
+ 1996  ls
+ 1997  sudo git clone gitolite@192.168.4.124:gitolite:admin
+ 1998  cd ..
+ 1999  vim ~/.ssh/config
+ 2000  git clone gitbox:gitolite-admin
+ 2001  ls
+ 2002  cd gitolite-admin/
+ 2003  ls
+ 2004  ls -l
+ 2005  cd ..
+ 2006  ~/gitolite-admin/
+ 2007  cd gitolite-admin/
+ 2008  cp ~/.ssh/id_rsa.pub keydir/naluvjyo.pub
+ 2009  git add keydir/naluvjyo.pub 
+ 2010  git commit -m 'added user "naluvjyo" to gitolite'
+ 2011  git status
+ 2012  git push
+ 2013  vim conf/gitolite.conf 
+ 2014  git commit conf/gitolite.conf -m 'added "AutomationTool" repo'
+ 2015  git push
+ 2016  ls
+ 2017  git status
+ 2018  cd conf/
+ 2019  ls
+ 2020  vi gitolite.conf 
+ 2021  cd 
+ 2022  cd gitolite-admin/
+ 2023  ls
+ 2024  cd keydir/
+ 2025  ls
+ 2026  cd ..
+ 2027  git add conf
+ 2028  git add keydir/
+ 2029  git commit -m "added  key and config directories"
+ 2030  git push
+ 2031  cd
+ 2032  history >> ~/Desktop/gitolitesteps 

@@ -1,0 +1,133 @@
+//1.what is list and tuple?
+Answer:- List is basic datatype of python.List is a mutable types.we can change the value of element in the list.
+	Example:- mylist=[1,2,3,4,"ABC"]
+
+	Tuple is like a list but we can not change the value of element because tuple is a imutable datatypes .
+	Example:-mytuple=(1,2,3,4,"ABC").
+
+//2.when to use list and when to use tuple
+Answer:- When you want to security of the data and when you want to faster execution that time use tuple. Because we can not change, delete or popup the element of the tuple. 
+Example :- mytuple=(1,2,3,4,"ABC")
+	   mytuple[0]=10           //it will raise error
+When you don't want to security of the data and faster execution that time use list.
+Example :- mylist=[1,2,3,4,"ABC"]
+	   mylist[0]=10           //it will change the value.
+
+//3.what is isinstance?,where can you use isinstance?
+Answer:- isinstance is predifine keyword. it's checking the element in tuple or class. if it is there then it will return True otherwise return False.
+Example:	mytupe=(1,2,3,4,5,6)
+        	res=isinstance(1,mytuple)
+
+//4.basic data types in python
+Answer:- Basic data types of the python:-
+				1) Number
+				2) string
+In python number will support any type of number like real,floatinng point etc.
+Example: var=10
+	 var=10.5
+In python we can define the string in single , double and triple qutation.
+Example :- Mystr= 'HELLO INDIA' 
+	   Mystr= "HELLO INDIA"
+	   Mystr= """HELLO INDIA""".
+
+//5.what are different data structures in python?
+Answer:- Basic data structures in python are listed below
+	1) List
+	2) Tuple
+	3) Dictionary
+	4) set
+	5) frozonset
+1)List is basic datatype of python.List is a mutable types.we can change the value of element in the list.
+	Example:- mylist=[1,2,3,4,"ABC"]
+2)Tuple is like a list but we can not change the value of element because tuple is a imutable datatypes .
+	Example:-mytuple=(1,2,3,4,"ABC").
+3)Dictionary is a key value pair.
+	Example:-mydict={'Name':"RAHUL",'EMP_ID':839}.
+4) set is remove the duplicates .
+Example :- mylist=[1,1,1,1,0,3,2,0,4]
+		    res=set(mylist)
+
+//6.how can u add a list(list of elements) to an existing list?
+Answer :- list1=[1,2,3]
+	  list2=[a,b,c]
+	  res=list1.extend(list2)
+
+//7.what is set?
+Answer:- Set is predefine keyword in python using this we can remove the duplicate and sort the data in assending order.
+         Example :- mylist=[1,1,1,1,0,3,2,0,4]
+		    res=set(mylist)
+		     //Ouyput : [0,1,2,3,4]
+
+//8.what is frozonset?
+Answer: Frozonset is a data structures in the python. it's work like a set.
+
+//9.what different keywords in python,can we use keywords as variables?
+Answer:- In python so many types of predefine keywords. like as pass, return,continue,and,or,def, class etc. we can't use predefine keywords as a veriable.
+  
+//10.print the elements of the list by skipping 2 elements ?
+	ex l=[1,2,3,4,5,6,7,8,9] output = [1,4,7]
+Answer:
+	l=[1,2,3,4,5,6,7,8,9]
+	len1=len(l)
+	res=[]
+	for i in range(,2,len1):
+		res.append(lis[i])
+	print res
+
+//11.Reverse a list with out using built in functions?
+Answer:- #!/usr/bin/python
+	 mylist=[1,2,3,4,5,6,7]
+	 res=mylist[::-1]
+
+//12.what are dict? write dict functions?
+Answer: dict is predefine datatypes of python. it have key value pair.
+	Example :- mydict={'name':"rahul",'empid':839}
+		   print dict.keys()      // it will print all keys
+		   print dict.values()   // it will print all values
+		   print dict.items()   // it will print all key value pair	   
+
+//13.find second largest number in the given list without using built in functions?
+Answer:- mylist=[1,2,3,38,15,49]
+         res=set(mylist)
+	  print"Large number is :",res[-1]
+	 
+//14.Transform list to other data structure?
+Answer:- mylist=[1,2,3,38,15,49]
+	 mylist1=['a','b','c','d','e','f']
+	 mytupe=tuple(mylist)
+	 mystr= str(mylist)
+	 mydict= dict(zip(mylist,mylist1))
+
+15.how to create flat list from list of lists? ex l=[[1,2],[6,3],[4,5]] o/p = [1,2,6,3,4,5]
+16.Split the list into evenly sized chunks? 
+ ex : if l=[1,2,3,4,5,6,7,8,9] o/p = [(1,2,3),(4,5,6),(7,8,9)]
+
+//17.what is list comprehension and how does it works?
+Answer:- List comprehnsension is taking input output and condition.
+         example:- l=[i**2 for i in range(1,11) if i%2==1]
+         output :- l=[1,9,25,49,81]
+
+//18.How can you copy a dict into other dict?
+Answer:- Using the assingment opertator we can copy the dict.
+Example:- dict1={1:2,3:4}
+	  dict2=dict1    .
+
+//19.what is the output of the following code ?
+	s1="python"
+	s2=s1
+	s2.replace("p","j")
+	print s1,s2
+Answer:- python , jython
+
+//20.what is the output of the following code ?
+	l=[1,2,3,4]
+	l1=l
+	l2=l[:]
+	l1.append(5)
+	print l
+	print l1
+	print l2
+Answer:-l is [1,2,3,4]
+	l1 is [1,2,3,4,5]
+	l2 is [1,2,3,4]   
+

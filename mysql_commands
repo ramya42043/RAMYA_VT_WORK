@@ -1,0 +1,70 @@
+//https://www.cyberciti.biz/faq/howto-install-mysql-on-ubuntu-linux-16-04/
+Goto this url They have shown with clear screenshot of every steps
+
+
+// setup mysql server
+//Step 1: Update your system by typing the following 
+   sudo apt update
+   sudo apt upgrade
+//Step 2: Install mysql version 5.7 on Ubuntu 16.04
+   sudo apt install mysql-server mysql-client
+//Step 3: Run mysql_secure_installation to secure your installation
+   sudo mysql_secure_installation 
+  
+   pip install MySQL-python
+   sudo apt-get install python-mysqldb
+   sudo apt-get install build-essential python-dev libmysqlclient-dev
+
+
+************************************************************************************************************************************************
+//Step 4: How do I use MySQL server?
+
+ // Goto mysql Database
+mysql -u root -p
+password: <Mysql root password given at time of installing mysql-server mysql-client>
+
+//Step 5: How do I create a new MySQL server database and user account?
+create database DATABASE-NAME-HERE;
+create database DM_Testing;   //create new Database
+mysql> use DM_Testing;   //go to database the database
+
+mysql> select * from DM_Discover; //show all information from database
+
+
+ // creating DM_discover table
+mysql> create table DM_Discover(ID INT NOT NULL AUTO_INCREMENT,Resource VARCHAR(20),Handle VARCHAR(20),PRIMARY KEY(ID));
+
+
+ // creating DM_GET table
+mysql> create table DM_GET(ID INT NOT NULL AUTO_INCREMENT,Resource VARCHAR(20),Handle VARCHAR(20),Key1 VARCHAR(10),Value VARCHAR(30),PRIMARY KEY(ID));
+
+
+   // creating DM_Observe table
+mysql> create table DM_Observe(ID INT NOT NULL AUTO_INCREMENT,Resource VARCHAR(20),Handle VARCHAR(20),Key1 VARCHAR(10),Value VARCHAR(30),PRIMARY KEY(ID));
+
+
+mysql> describe DM_Discover;   //showing the field of the table...   describe <Table_name>
+
+ //created the user with permission 
+       GRANT ALL ON Database_name.* TO 'User_name' IDENTIFIED BY 'DB_password';
+mysql> GRANT ALL ON DM_Testing.* TO 'Test_Team' IDENTIFIED BY 'votary';  
+
+
+//Modify the size of coloum size
+mysql> ALTER TABLE <table_name> MODIFY <col_name> VARCHAR(65353); 
+
+
+
+mysql> show databases;   //Showing the Database
+
+mysql> show tables;           //show the tables
+
+mysql> drop database test;      //delete the database
+
+mysql> drop tables DM_Discover; //delete particular table
+
+************************************************************************************************************************************************
+
+
+
+

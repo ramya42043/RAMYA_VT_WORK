@@ -1,0 +1,161 @@
+﻿
+1.What is Ternary operator?Does python have a Ternary operator?
+
+The ternary operator is an operator that takes three arguments. The first argument is a comparison argument, the second is the result upon a true comparison, and the third is the result upon a false comparison. If it helps you can think of the operator as shortened way of writing an if-else statement.
+
+a if condition else b
+
+First condition is evaluated, then either a or b is returned based on the Boolean value of condition
+If condition evaluates to True a is returned, else b is returned.
+
+
+
+2.What is a conditional statement in Python?
+
+ The condition may be any expression, and true is any non-zero value. The loop iterates while the condition is true.
+
+When the condition becomes false, program control passes to the line immediately following the loop.
+
+	while expression:
+  		 statement(s)
+	
+	if expression1:
+	   statement(s)
+
+	elif expression2:
+	   statement(s)
+
+	elif expression3:
+	   statement(s)
+
+	else:
+	   statement(s
+	
+
+
+3.Write a Python program to construct the following pattern, using a nested for loop.
+
+* 
+* * 
+* * * 
+* * * * 
+* * * * * 
+* * * * 
+* * * 
+* * 
+*
+
+
+	#!/usr/bin/python
+
+	for num1 in range(6):
+		for num2 in range(num1):
+		        print "* ",
+		print"\n"
+
+	num3=num1-1
+	while(num3>0):
+		for num4 in range(num3):
+		        print "* ",
+		print "\n"
+		num3=num3-1
+
+
+
+4.Write a Python program to convert month name to a number of days.
+Expected Output: 
+List of months: January, February, March, April, May, June, July, August
+, September, October, November, December                                
+Input the name of Month: February                                       
+No. of days: 28/29 days 
+
+	#!/usr/bin/python
+
+	print("List of months: January, February, March, April, May, June, July, August, September, October, November, December")
+
+	month_name = raw_input("Input the name of Month: ")
+
+	print month_name
+
+	if month_name == "February":
+		print("No. of days: 28/29 days")
+	elif month_name in ("April", "June", "September", "November"):
+		print("No. of days: 30 days")
+	elif month_name in ("January", "March", "May", "July", "August", "October", "December"):
+		print("No. of days: 31 day")
+	else:
+		print("Wrong month name")
+	                                       
+
+
+
+5.write a python program that prints all the numbers from 0 to 6 except 3 and 6
+note:use ‘continue’ statemnet
+excepted output: 0 1 2 4 5
+
+#!/usr/bin/python
+
+def print0to6skip3and6():
+
+        for number in range(0,7):
+                if 3 == number or 6 == number:
+                        continue
+                else:
+                        print number
+
+
+print0to6skip3and6()
+~                                                                               
+~                                                                               
+~                              
+
+
+
+6.Given an array of ints length 3, return an array with the elements "rotated left" so {1, 2, 3} yields {2, 3, 1}.
+
+rotate_left3([1, 2, 3]) → [2, 3, 1]
+rotate_left3([5, 11, 9]) → [11, 9, 5]
+rotate_left3([7, 0, 0]) → [0, 0, 7]
+
+def rotate_left3(arr):
+	
+	newarr=arr[1:]+arr[:1]
+	return newarr
+
+lis=input("enter integers in the list format\n")
+print rotate_left3(lis)
+
+
+7.Count the number of "xx" in the given string. We'll say that overlapping is allowed, so "xxx" contains 2 "xx".
+
+countXX("abcxx") → 1
+countXX("xxx") → 2
+countXX("xxxx") → 3
+
+Answer :
+
+
+	#!/usr/bin/pyhton
+
+
+	def countXX(word):
+		length=len(word)
+		count = 0
+		for index in range(length-1):
+		        if (word[index]=='x') and (word[index+1]=='x'):
+		                count +=1
+		return count
+
+
+	string= raw_input("enter the string to count XX overlapped\n")
+	result = countXX(string)
+	print result
+
+ 	
+	
+
+
+
+
+
+

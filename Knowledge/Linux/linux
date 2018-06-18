@@ -1,0 +1,232 @@
+		=========================================================================================
+
+											General Linux
+		==========================================================================================
+
+1.What is Linux booting process? Explain each stage in the Linux booting process from power is ON? What will be initailized in ROM
+code?
+ 
+2.Explain Booting process of any SOC? Explain each stage of booting process?
+
+3.Why we need X­loader? Can we modIfy the X­loader code? Who will modIfy the x­loader code?
+
+4.How to get  event on booting process?
+5.What is the difference between RTOS and GPOS? What is difference between Linux and RTOS (real time operating system). 
+6.What is U­boot?
+7.Explain OS architecture?
+8.DIfference b/w Linux boot and android booting process?
+9.Explain the flow of program execution with compilation process and memory
+10.Explain about eCos operating system system calls and OS concepts?
+11.What is Buffer address? where we will use?
+12.What is cross compilation.
+13.When you run the program on target board if program crashes then How you can analyse the code
+14.What is coredump?
+15.How to do flashing?
+16.How to debug whether the device has hardware or software issue?
+17.What is a stack frame, stack pointer & frame pointer ?
+18.Write steps in Boot sequence in Linux based systems (PCs)
+19.What is object file and what are symbols ?
+20.Can you tell the memory layout of a process based on Data,BSS,HEAP and STACK?
+21.What is the use of the poll(file, polltable) API ?
+22.List key features and achivements of Linux. Why it is so popular?
+23.Explain demand paging with an example. 
+24.What is object file and What are symbols ?
+25.What is use of Chmod – command?
+26.What is meant by gcc, gmake, ctags
+27.Can a Linux machine be configured as a router? How?
+28.What is Boot loader? What are the functions of bootloader? What is the difference between primary boot loader and secondary boot
+loader? How does a bootloader passes the parameters to the Kernel?
+29.What is a toolchain? Why its required?
+30.What is the significance of &# in shell scripting?
+31.Explain about how to find 99th element using head and tail concept in shell scripting?
+32.Explain the scenario of test case creation in shell scripting?
+33.Difference between spinlock, mutex, and semaphore.
+34.Difference between mutex and spinlock? Where we used spinlock? How spinlock works ?
+35.What kind of priority is maintained in Linux.
+
+
+			================================================================================
+
+										LINUX(Kernel Space)
+
+			================================================================================
+1.Explain Dynamic Memory Partitioning in paging
+2.Explain about the Kernel memory regions? How we allocate memory in kernel? Explain about kmalloc and its flags clearly?
+3.How will you make interrupt handlers as fast as possible? What we don’t do in the interrupt Handler ? How you allocate memory in
+interrupt handler?
+4.How can we insert the module in run time? How many ways can do? What is dIfference between insmod and modprobe? How
+modprobe works?
+5.What happens when an interrupt raised by an device? Explain interrupt mechanism in Linux?
+6.What is top of interrupt and bottom of interrupt. Difference between top half and Bottom half? When we use Bottom half? What is the
+difference between Softirq and Tasklet?
+7.What are tasklets ? How are they activated ? when and How are they initialized ? When will you use it and How is it different to
+ISRs?
+8.hat are the types of softirqs ? Difference between Timer Softirq and Tasklet Softirq ?
+9.What is a system call? How system call works? How system calls are implemented in Linux? Explain about trap. How system call
+arguments are passed to the Kernel?
+10.What is the first function executed in Kernel? What is first process in the Kernel? When it will created?
+11.What is the interrupt latency? Explain interrupt mechanism in Linux?
+12.When a module is added in the Kernel statically, then Kernel is compiled, but new Kernel image is not working? How you resolve it?
+13.Have you come across Kernel panic? What is Kernel panic?
+14.What is need for Kernel? How to debug Kernel?
+15.Write a code for spin lock?
+16.What are Kernel thread. How to create Kernel threads?
+17.What is work queue?
+18.Tell me how keyboard scans the input provided in terms of OS internals
+19.What are software signal or interrupt in Linux system?
+20.kmalloc and vmalloc dIfferences?
+21.user space malloc created then How Kernel knows about the created malloc??
+22.Let us say, driver is not present then, how will you work on it for application??
+23.What is the difference between virtual address and physical address. Write in detail about the address translation scheme with a
+diagram and explanation
+24.What are interrupts and How they work or how the interrupts are handled in any application?
+25.Explain Memory Fragmentation? How will it happen? What is the way to eliminate them?
+26.What is virtual memory, why we need virtual memory and How to implement the virtual memory.
+27.What happens if Interrupt comes in a thread execution and How to handle it.
+28.What is LK (Little Kernel) ? What it do ?
+29.What is Device tree ? How to enter the new device information in the Device tree? Which file is generated after device tree
+compilation?  How will you make changes in device tree
+30.What is Kernel. How it works
+31.Explain  about Kernel switching
+32.Explain MMU in detail with diagram. Also write example code and explain with relevant instructions.
+33.Is it possible to do nesting of interrupts.
+34.What are the different OS scheduling procedures. What are the types of Scheduling Mechanisms in Linux.Explain each in detail
+Changes needed in source if you are adding a new driver to Kernel
+35.How communication is done from Kernel to user level?
+36.Flow of application to Kernel for particular module?
+37.What is the difference between General purpose and Real time Operating systems
+38.How the Interrupts are Working On Linux Kernel?
+39.What is the latest Linux­Kernel version?  What are the new features added in latest Kernel compare to previous release?
+40.What are character devices? How does the character device driver adds and remove itself from the Kernel ?
+41.How will you Access userspace memory from Kernel? What are the various methods? 
+42.What are the main components of a Linux device driver? Describe all. What is Call back mechanism in Linux device driver
+programming ?
+43.What is the use of file­>private_data in a device driver structure ?
+44.What is the role of interrupts in a device driver ? How are interrupts handled in device driver ? What are the precautions needs to be
+taken while writing ISRs?
+45.What is MMAP()? Advantages of MMAP over Read ?
+46.Tell the relation between Malloc and MMAP. Example of using MMAP and MUNMAP in C ?
+47.What is SMP, AMP? List the differences (Hint CPU)
+48.What are the ways in which Linux Kernel can be compiled ?
+49.How do you get the list of currently available drivers? How will get the driver added into the Kernel ? What are Kconfig files ?
+50.What is a Kernel module? How will you list the modules?
+51.What is the use of ioctl(inode,file,cmd,arg) API?
+52.What is a device number ?
+53.What are the two types of devices drivers from VFS point of view ?
+54.What is task_struct and How are task states maintained ?
+55.What is rwlock and spinlock ? Briefly explain about both of them ?
+56.When will you use rwlock instead of spinlock ?
+57.Can spinlock/rwlock be used in Interrupt handler ?
+58.How will you trace the system calls made into the Kernel of Linux ?
+59.Tell about the method/steps in Linux Kernel Compilation.
+60.What is Kmalloc and How does it differ from normal malloc ? or Why can’t we use malloc in Kernel code ?
+61.What happens as soon as a packet arrives from the network in Linux ?
+62.What is the difference between IO mapped vs memory mapped?
+68.What is zombie process. Describe the situation when you create
+69.What is virtual run time.
+70.What is user preemption and Kernel preemption
+71.What happens when process in userspace calls a syscall.
+72.What is the need of verifying parameter in definition of syscall.
+73.Why it is not recommended to writing new syscall.
+74.How can ISR contribute to entropy in Linux Kernel to generate random numbers?
+75.Can we acquire mutex/semaphore in an Interrupt Service Routine?
+76.What is the difference between IO mapped vs memory mapped?
+77.What are the ways in which Linux Kernel can be compiled ?
+78.How will get the driver added into the Kernel ? What are kconfig files ?
+79.Whats Inode in Linux?
+80.What is GDB? Can you put a breakpoint in ISR?
+81.What is Interrupt vector?
+82.What is sk_buff in Linux Kernel 
+83.What is page fault?
+84.If I allocate the memory kmalloc(100), How much of memory will be allocated ?
+85.What is page_alloc() function ?
+86.Explain About KGDB, gdb?
+87.How to get the Kernel logs?
+88.What is ISR mechanism in Linux, what are its characterisctics and functionalities? Can we use a printk in Interrupt service routine?
+	Justify the answer. Is conditional execution allowed in ISR.
+90.What is “init” and its role?
+91.What are the tools used to debug Kernel and describe them? 
+92.What are the COPY_TO_USER and COPY_FROM_USER functions ?
+93.What is Make file? What type of changes we need to do when a new driver is added? How do you test the driver?
+94.How do you debug a Kernel error using an address?
+95.What is a filesystem? how do we build a filesytem busybox/ buildroot.
+96.How do you share a function between different drivers in Kernel?
+97.How does a Kernel space driver informs/notify a userspace program?
+98.What is Linux sysfs and how do we use it to find the status of a device in Kernel?
+99.What is a function pointer, give an example of its usage in Kernel. 
+100.Please draw the kernel memory management architecture and explain in detail each memory types in detail. 
+101.Please write in detail about cache coherence, explain the scenario with example and sample code
+102.Please explain in detail Kernel Symbol table architecture 
+103.Write different types of schedulers and scheduling are available in the operating system 
+
+		=============================================================================
+							Linux (User Space)
+		=============================================================================
+1.Explain about IPC mechanisms. What is the fastest IPC? Why?
+2.If any crashes occurs while booting up any chip then how to debug that , how will get to know where is the crash.
+3.Difference between Kernel space and User space. How context switching happens between user space to kernel space? Please 
+	write a few systems call examples, which switches from the program control from kernel space to user space.
+4.What is synchronization? How we implement that in the regular process? What type of synchronization techniques are present in the
+Linux? What are different synchronization mechanisms, why to use them and when to use which?
+5.What are the differences between process and thread.  What is real time application of process and thread. How to synchronize
+both. Why thread is called as light weight Process? Generally what resources are shared between threads. How to handle signal in
+process and thread?
+6.Is synchronization needed with two threads ??,If yes How u will do with semaphores and mutex??,If no What Is the reason?? How it
+can run with the virtual memory?
+7.What are the differences between Mutex vs Semaphore? Explain difference between binary semaphore and mutex? Are binary
+semaphore and mutex same? Give example of mutex and semaphore?  When to use mutex and when to use semaphore? 
+8.What will happen When one process write the data in the pipe and exit, another process is not available to read? Can it read later?
+	What type of error will occur?
+
+9.Is it possible to communicate userspace with hardware without Kernel? NO? Yes?
+10.What is userspace?
+11.What is Deadlock? Give an example. How you will avoid that?  Are deadlocks for the multiple processes? Write a code for deadlock? 
+12.What is Race condition? Write code for racecondition?
+13..If I declare int a=10, int b=20, int c=30 in three threads should I use these variables each in other threads?
+14.How to use one variable in all threads?
+15.How many locking mechanisms we have? Explain thread locking mechanisms.
+16.What is race around condition?
+17.What is atomic code?
+18.What is atomic programming/non­locking operation? Explain atomic operations
+19.How to debug a multi threaded application code?
+20.Explain process memory section and used of all section
+21.What is Shared library and Dynamic library?
+22.If  two threads are using same global variable do we need a mutex in single processor system
+23.Explain the procedure of child process creation? Give 3 examples for using fork and exec functions
+24.Explain Prority inversion.   
+25.What is paging and How it is different from segmentation?
+26.How do you debug whether the crash happened in your code or application?
+27.What is cooperative multitasking and pre­emptive multitasking. What is limitation of cooperative multitasking.
+28.What should be done for Shared library based linking in gcc? What should be done for static library based linking in gcc ?
+29.What is dynamic linking ? What is static linking ? List the differences. What are the advantages of Dynamic linking or Shared
+libraries ?
+30.What basis we decide to create static and dynamic libraries?
+31.Tell the role of brk() in malloc / Tell the relation between heap and brk?
+32.What is process descriptor. How to manipulate the current process. What is process context
+33.How threads are implemented in Linux Kernel.
+34.What are different states of a process in Linux.
+35.What is thread_info structure and what is the need of that structure
+36.How parent less process is handles in Linux.
+37.What is process scheduling? What are the available scheduling classes in Linux? How next task is picked for scheduling. What is
+scheduler entry point in Linux?
+38.I/O bound versus Processor bound process.
+39.What is context switch? Explain context switching, PCB. How context switching is handled in Linux. 
+40.Explain fork system call in Linux. Explain differences between fork() and vfork()? Why is vfork() not much useful now?
+41.What is a Thread? Why Multithreading? How are threads scheduled in Linux? How to implement Multi threading and its uses.Please write an example C code which uses multithreading and thread synchronization. OS being linux. 
+42.What is segmentation­fault? When it occurs? Please write example code which generates segmentation fault using C and Linux
+	calls. How you debug when it occurs?
+ 
+43.What is memory leak? How you detect and debug memory leak issues?
+44.What is stack over flow? How you detect and debug when it occures?
+45.Whats Priority Inversion? and How to overcome it?
+46.Difference between Multithreading and Multitasking
+47.What is POSIX createThread, joinThread? What is Thread safe code
+48.Whats pre­emption? Is it supported in Linux?
+49.What is process starvation, how Linux handles it?
+50.What is Critical Section code?
+51.What is ALSA? explain the architecture.
+52.How to find the process id in Shell scripting?
+53.What are daemons and please provide a few examples of daemons. 
+54.Write a complete program to print the process ID in Linux.
+55.Explain the following signals with situation and examples a.SIGABRT  b.SIGTERM   c.SIGPIPE  d.SIGUSR1 
+

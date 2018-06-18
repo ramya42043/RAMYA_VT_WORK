@@ -1,0 +1,86 @@
+1.what is "self" statement in python?
+
+
+
+class A(object):
+    def __init__(self):
+        self.x = 'Hello'
+
+    def method_a(self, foo):
+        print self.x + ' ' + foo
+
+
+ the self variable represents the instance of the object itself. Most object-oriented languages pass this as a hidden parameter to the methods defined on an object; Python does not. You have to declare it explicitly. When you create an instance of the A class and call its methods, it will be passed automatically.
+
+2.What is Object Oriented Programming?
+
+In all the programs we wrote till now, we have designed our program around functions i.e. blocks of statements which manipulate data. This is called the procedure-oriented way of programming. There is another way of organizing your program which is to combine data and functionality and wrap it inside something called an object. This is called the object oriented programming paradigm. Most of the time you can use procedural programming, but when writing large programs or have a problem that is better suited to this method, you can use object oriented programming techniques.
+
+
+
+3.what is __init__()?when it will execute?
+
+	The first method __init__() is a special method, which is called class constructor or initialization method that Python calls when you create a new instance of this class.
+
+4.Write a Python class to implement pow(x, n)?
+
+	class py_solution:
+	   def pow(self, x, n):
+		if x==0 or x==1 or n==1:
+		    return x 
+
+		if x==-1:
+		    if n%2 ==0:
+		        return 1
+		    else:
+		        return -1
+		if n==0:
+		    return 1
+		if n<0:
+		    return 1/self.pow(x,-n)
+		val = self.pow(x,n//2)
+		if n%2 ==0:
+		    return val*val
+		return val*val*x
+
+	print(py_solution().pow(2, -3))
+	print(py_solution().pow(3, 5))
+	print(py_solution().pow(100, 0))
+
+5.Write a Python class which has two methods get_String and print_String. get_String accept a string from the user and print_String print the string in upper case.
+
+		#!/usr/bin/python
+		class String():
+			empcount=0
+			def getString(self):
+				self.mystr=raw_input("Please enter the string : ")
+				String.empcount+=1
+			def printString(self):
+				print"Given Data in upper string ",self.mystr.upper()
+		
+		
+		obj=String()
+		obj.getString()
+		obj.printString()
+
+6.Write a Python class named Rectangle constructed by a length and width and a method which will compute the area of a rectangle.
+
+
+	class Rectangle():
+	    def __init__(self, l, w):
+		self.length = l
+		self.width  = w
+
+	    def rectangle_area(self):
+		return self.length*self.width
+
+	newRectangle = Rectangle(12, 10)
+	print(newRectangle.rectangle_area())
+
+
+
+
+
+
+
+

@@ -1,0 +1,129 @@
+//1.write a program to explain the functionality of "issubclass()" method?
+Answer: #!/usr/bin/python
+	class base(object):
+		def __init__(self,str):
+			self.str=str
+		def display_str(self):
+			print self.str
+	
+	class drive(base):
+		def __init__(self,str,name):
+			super(drive,self).__init__(str)			
+			self.name=name
+		def display_name(self):
+			print self.name
+	
+	if issubclass(drive,base):
+		print "drive is subclass of base"
+	else:
+		print "drive is not subclass of base"
+	obj=drive("Hello", "Rahul")
+	obj.display_str()
+	obj.display_name()
+
+//2.write a program to explain inheritance?
+Answer: #!/usr/bin/python
+	class base(object):
+		def __init__(self,str):
+			self.str=str
+		def display_str(self):
+			print self.str
+	
+	class drive(base):
+		def __init__(self,str,name):
+			super(drive,self).__init__(str)			
+			self.name=name
+		def display_name(self):
+			print self.name
+	
+	obj=drive("Hello", "Rahul")
+	obj.display_str()
+	obj.display_name()
+
+//3.In how many ways we can access parent class members?explain with example?
+Answer:1. Using with parent class name
+       2. Using with super keyword 
+#!/usr/bin/python
+class base(object):
+
+        def __init__(self,str1):
+                self.str1=str1
+
+        def display_str1(self):
+                print self.str1
+
+        def display_class_name(self):
+                print "Parent_Class_Name :",base.__name__
+
+class drive(base):
+        def __init__(self,str1,name):
+                #super(drive,self).__init__(str1)    //Using super Keyword                   
+                base.__init__(self,str1)             //Using parent class name
+                self.name=name
+        def display_name(self):
+                super(drive,self).display_class_name()
+                print self.name
+
+obj=drive("Hello", "Rahul")
+obj.display_str1()
+obj.display_name()
+                                                        
+
+//4.what is "Object" in below code?
+	ex :class(Object):
+		pass
+Answer: it's old style syntax of declaration of class in python. here object is a root for all drive classes. it's refer the parent class.
+
+//5.what is multiple inheritance?Does python support it?if yes, explain the procudure with example?
+Answer: Inherit the Property and features from more than one parent object or parent class is called multiple inheritance. 
+Example:#!/usr/bin/python
+	class base1(object):
+		def __init__(self,str1):
+			self.str=str1
+		def display_str1(self):
+			print"In Base Class frist ",self.str1
+	
+	class base2(object):
+		def __init__(self,str2):
+			self.str=str2
+		def display_str2(self):
+			print"In base class Second ",self.str2
+	
+	class drive(base1,base2):
+		def __init__(self,str,name):
+			super(drive,self).__init__(str)			
+			self.name=name
+		def display_name(self):
+			print self.name
+	
+	obj=drive("Hello", "Rahul")
+	obj.display_str1()
+	obj.display_str2()
+	obj.display_name()
+
+//6.write a program to print parent class name from child instance?
+Answer: #!/usr/bin/python
+	class base(object):
+
+        	def __init__(self,str1):
+        	        self.str1=str1
+
+        	def display_str1(self):
+                	print self.str1
+
+        	def display_class_name(self):
+                	print "Parent_Class_Name :",base.__name__
+
+	class drive(base):
+        	def __init__(self,str1,name):
+        	        super(drive,self).__init__(str1)
+        	        self.name=name
+		def display_name(self):
+	                super(drive,self).display_class_name()
+	                print self.name
+	
+	obj=drive("Hello", "Rahul")
+	obj.display_str1()
+	obj.display_name()
+                   
+

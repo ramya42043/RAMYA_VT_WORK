@@ -1,0 +1,38 @@
+//﻿1.Write a program to Copy text from one file to another file?
+
+	fr = open("read.txt", 'r')
+	file_data = fp.readlines()
+	fw = open("write.txt", 'w')
+	for line in file_data:
+		fw.write(line)
+
+//2.Accept the file from the user and count the number of words present in the file?
+	file = argv[1:2]
+	fp = open(file, 'r')
+	read_data = fp.read()
+	count = read_data.count("str_pattern")
+	print "string count in file= ",count
+ 
+//3.How can you open a file in python? What are diferent types of file modes?
+	fp = open("file_name", 'mode')
+	modes:
+	r = read file
+	w = write file
+	a = append at end
+	r+ = read and write
+	w+ = read and write
+	a+ = read and append
+	wb = read binary file
+	rb = write binary file
+	
+//4.what is “with” statement? How do you use in files?
+with statement gives better service for exeption handling
+ with open("file.txt") as file:
+	file.read()
+file object automatically closed after operation
+it will not bother about return , break, continue statment
+
+//5.what is  the difference between “with open” and “open” in files?
+	"with open" gives better exeption handling for created object
+even exception accours then also file object automatically closed
+	but in "open" we have to close file manually 

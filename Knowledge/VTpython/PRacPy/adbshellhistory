@@ -1,0 +1,38 @@
+  sudo apt-get install adb
+  833  adb devices
+  834  kill-server
+  835  kill -server
+  836  kill server
+  837  adb kill-server
+  838  adb start-server
+  839  adb devices
+  840  adb shell
+  841  adb logcat > htclog.txt
+  842  adb logcat -b radio
+  843  adb logcat *
+  844  adb logcat *:D
+  845  adb logcat *:I
+  846  adb logcat *:E
+  847  adb logcat -b radio tee radiolog.txt
+  848  adb logcat -b radio | tee radiolog.txt
+  849  adb logcat -b radio |tee radiolog.txt | grep "camera"
+  850  adb logcat -b radio | grep "camera" | tee radiolog.txt 
+  851  adb logcat -b radio | grep "camera"  
+  852  adb logcat -b main | grep "camera"  
+  853  adb logcat -b main | grep "camera"  > cameralogs.txt
+  854  dmesg
+  855  cat /proc/kmsg
+  856  sudo cat /proc/kmsg
+  857  cd /proc/
+  858  ls
+  859  vi kmsg
+  860  cat kmsg
+  861  sudo cat kmsg
+  862  ls -al
+  863  cat kmsg
+  864  sudo cat kmsg
+  865  :54 kmsg
+  866  cd
+  867  cat do_syslog
+  868  adb logcat -b event
+  869  history 

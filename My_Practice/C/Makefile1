@@ -1,0 +1,10 @@
+all:main.o add.o sub.o
+	gcc main.o add.o sub.o -o main
+main.o : 
+	gcc -c main.c
+add.o:
+	gcc -c add.c
+sub.o:
+	gcc -c sub.c
+clean:
+	rm *.o

@@ -1,0 +1,122 @@
+1.Write about Android History and where do we use ?
+
+Ans:The code names of android ranges from A to N currently, such as Aestro, Blender, Cupcake, Donut, Eclair, Froyo, Gingerbread, Honeycomb, Ice Cream Sandwitch, Jelly Bean, KitKat , Lollipop ,Marshmallow and Nougat.
+
+Android history in a sequence:-
+
+1) Initially, Andy Rubin founded Android Incorporation in Palo Alto, California, United States in October, 2003.
+
+2) In 17th August 2005, Google acquired android Incorporation. Since then, it is in the subsidiary of Google Incorporation.
+
+3) The key employees of Android Incorporation are Andy Rubin, Rich Miner, Chris White and Nick Sears.
+
+4) Originally intended for camera but shifted to smart phones later because of low market for camera only.
+
+5) Android is the nick name of Andy Rubin given by coworkers because of his love to robots.
+
+6) In 2007, Google announces the development of android OS.
+
+7) In 2008, HTC launched the first android mobile.
+
+2.Write about Core Building blocks of Andoird ?
+
+Ans: The core building blocks or fundamental components of android are activities, views, intents, services, content providers, fragments and AndroidManifest.xml.
+
+Activity:-
+	An activity is a class that represents a single screen. It is like a Frame in AWT.
+View:-
+	A view is the UI element such as button, label, text field etc. Anything that you see is a view.
+Intent:-
+	Intent is used to invoke components. It is mainly used to:
+    Start the service
+    Launch an activity
+    Display a web page
+    Display a list of contacts
+    Broadcast a message
+    Dial a phone call etc.
+
+Service:-
+	Service is a background process that can run for a long time.
+There are two types of services local and remote. Local service is accessed from within the application whereas remote service is accessed remotely from other applications running on the same device.
+
+Content Provider:-
+Content Providers are used to share data between the applications.
+
+Fragment:-
+Fragments are like parts of activity. An activity can display one or more fragments on the screen at the same time.
+
+AndroidManifest.xml:-
+It contains informations about activities, content providers, permissions etc. It is like the web.xml file in Java EE.
+
+Android Virtual Device (AVD):-
+It is used to test the android application without the need for mobile or tablet etc. It can be created in different configurations to emulate different types of real devices.
+
+3.Write about AAPT ADB NDK ADT APK and ANR ? 
+
+Ans: AAPT :- aapt stands for Android Asset Packaging Tool. This tool is part of the SDK (and build system) and allows you to view, create, and update Zip-compatible archives (zip, jar, apk). It can also compile resources into binary assets.
+Build scripts and IDE plugins utilize this tool to package the apk file that constitutes an Android application.
+
+ADB:- Android Debug Bridge (adb) is a versatile command-line tool that lets you communicate with a device (an emulator or a connected Android device). The adb command facilitates a variety of device actions, such as installing and debugging apps, and it provides access to a Unix shell that you can use to run a variety of commands on a device. 
+
+NDK:-The Android NDK is a toolset that lets you implement parts of your app in native code, using languages such as C and C++. For certain types of apps, this can help you reuse code libraries written in those languages. 
+
+ADT:-Android Development Tools (ADT) is a plugin for the Eclipse IDE that is designed to give a powerful, integrated environment in which to build Android applications.
+
+APK:-Android Package Kit (APK) is the package file format used by the Android operating system for distribution and installation of mobile apps and middleware.
+
+ANR:-ANR stands for Application Not Responding it occurs when the main thread of the application is blocked for too long.
+
+4.write about android Life Cycle
+
+Ans: Method	Description
+onCreate	:called when activity is first created.
+onStart	        :called when activity is becoming visible to the user.
+onResume	:called when activity will start interacting with the user.
+onPause	        :called when activity is not visible to the user.
+onStop	        :called when activity is no longer visible to the user.
+onRestart	:called after your activity is stopped, prior to start.
+onDestroy	:called before the activity is destroyed.
+
+5.Write version difference between Android 6.0 and Adnroid 7.0 ?
+Ans:
+Android 7.1.1	
+Nougat	
+
+    Long press on the app icon enable new launch actions
+    The default keyboard allows now to send GIFs directly
+    New set of emojis
+
+Android 7.1	
+Nougat	
+
+    Daydream Virtual Reality mode
+    Night Light
+    Storage manager improvements
+    Performance improvements for Touch and Display managements
+    Option to enable fingerprint swipe down gesture
+    Seamless system updates
+
+Android 7.0	
+Nougat	
+
+    Unicode 9.0 emoji
+    Better multitasking
+    Multi-window mode (PIP, Freeform window)
+    Seamless system updates (with dual system partition)
+    Better performance and code size thanks to new JIT Compiler
+
+Android 6.0.1	
+Marshmallow	
+   New emojis	
+	
+Android 6	
+Marshmallow	
+
+    USB Type-C support
+    Fingerprint Authentication support
+    Better battery life with "deep sleep"
+    Permissions dashboard
+    Android Pay
+    MIDI support
+    Google Now improvements
+

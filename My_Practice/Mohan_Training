@@ -1,0 +1,24 @@
+1What is segmentation fault? List what all the things causes segmentation fault?
+2.How do you debug segmentation fault?
+3.what is stack overflow?when it happens?
+
+A stack overflow is an undesirable condition in which a particular computer program tries to use more memory space than the call stack has available. In programming, the call stack is a buffer that stores requests that need to be handled.
+
+The size of a call stack depends on various factors. It is usually defined at the start of a program. Its size can depend on the architecture of the computer on which the program runs, the language in which the program is written, and the total amount of available memory in the system. When a stack overflow occurs as a result of a program's excessive demand for memory space, that program (and sometimes the entire computer) may crash.
+
+
+
+4.How do you debug stack overflow issues?
+5.what is memory leak?How do you make sure your code has no-memory-leak?
+6.what is HAL?What is the significance of it?Give one example?
+
+7.What is RTOS? What are main features of it?
+8.What is the difference between RTOS and GPOS
+9.Give few examples of RT applications
+10.Explain priority based scheduling
+11.What is BT classic, BT smart ready and BLE
+12.Write BLE architecture
+13.what is Dangling pointer
+14.what is call backs?Give examples?
+15.What is cache coherance?
+16.what is scatter gather list?

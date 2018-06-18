@@ -1,0 +1,9 @@
+1.write a program to explain the functionality of "issubclass()" method?
+2.write a program to explain inheritance?
+3.In how many ways we can access parent class members?explain with example?
+4.what is "Object" in below code?
+	ex :class(Object):
+		pass
+5.what is multiple inheritance?Does python support it?if yes, explain the procudure with example?
+6.write a program to print parent class name from child instance?
+

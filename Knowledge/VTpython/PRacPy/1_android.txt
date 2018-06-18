@@ -1,0 +1,5 @@
+1. Explain Android Booting process to open any application
+2. Explain Android Architecture
+3. Differece between DVM and ART(Android Run time)
+4. What is zygote in Android
+5. What is Android Bootloader?

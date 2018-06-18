@@ -1,0 +1,106 @@
+//Name :-RAHUL CHATURVEDI
+//EMPID:-839
+
+1) WAP to create BankAccount class and perform withdraw, deposit and current_balance operations...?
+Answer: #!/usr/bin/python
+	
+	class BankAccount:
+		def __init__(self,Balance=0):
+			self.Balance=Balance
+		
+		def withdraw(self,amount):
+			self.Balance -= amount	
+			print amount," Rupees withdraw from your account"
+		
+		def deposit(self,amount):
+			self.Balance += amount	
+			print amount," Rupees deposited in your account"
+
+		def current_balance(self):
+			print"Current balance of your account is ",self.Balance
+
+	Saving_account=BankAccount(5000)
+	Saving_account.withdraw(1000)
+	Saving_account.deposit(2000)
+	Saving_account.current_balance()	
+
+2) Define a class Person and its two child classes: Male and Female. All classes have a method "getGender" which can print "Male" for Male class and "Female" for Female class...?
+Answer: #!/usr/bin/python
+	
+	class Person(object):
+		def __init__(self,gender=""):
+			self.gender=gender
+		def getGender(self):
+			print "Gender is ",self.gender		
+		
+	class Male(Person):
+		def __init__(self,gender):
+			super(Male,self).__init__(gender)
+
+		def getGender(self):
+			print "Gender is ",self.gender
+
+	class Female(Person):
+		def __init__(self,gender):
+			super(Feale,self).__init__(gender)
+
+		def getGender(self):
+			print "Gender is ",self.gender
+
+	
+	Gender=Male("Male")
+	Gender.getGender()
+	
+	Gender=Female("Female")
+	Gender.getGender()
+
+
+3) Write a Python class named Circle constructed by a radius and two methods which will compute the area and the perimeter of a circle...?
+Answer: #!/usr/bin/python
+
+	Class Circle:
+		def __init__(self,radius=0)
+			self.radius=radius
+
+		def Area_of_circle(self):
+			res=(3.14159*self.radius**2)
+			print"Area of Circle is ",res
+
+		def Perimeter_of_circle(self):
+			res=(2*3.14159*self.radius)
+			print"Perimeter of Circle is ",res
+	obj=Circle(5)
+	obj.Area_of_circle()
+	obj.Perimeter_of_circle()
+
+4) What is setattr() used for? What is getattr() used for?
+   What is the output of the following code?
+
+	class change:
+		def __init__(self, x, y, z):
+		    self.a = x + y + z
+	 
+	x = change(1,2,3)
+	y = getattr(x, 'a')
+	setattr(x, 'a', y+1)
+	print(x.a)
+
+Answer: Setattr is a predefine keyword in class. it's useful for set the element or attribute. if element is not present than it will be create.
+	Getattr is predefine  keyword in class. it give the attribute or element of the object.
+	
+	Output of code : 7
+
+5) Write class, It should have a private method. and execute that private method..?
+Answer:#!/usr/bin/python
+	
+	class sample:
+		def __init__(self,name):
+			self.name=name
+
+		def __printname(self):
+			print"Name is ",self.name
+	
+	name=sample("Rahul Chaturvedi")
+	name._sample__printname()
+
+
