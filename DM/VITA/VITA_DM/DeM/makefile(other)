@@ -1,0 +1,24 @@
+curr_dir = $(shell pwd)
+out_dir = $(curr_dir)/../Executables/lib/
+INCLUDES = $(curr_dir)../
+
+.PHONY = all
+all: libDeM.so main clean
+
+libDeM.so: DM_DeM.o
+	$(CC) -shared -o $(out_dir)libDeM.so DM_DeM.o
+
+DM_DeM.o: DM_DeM.c
+	$(CC) -c $(CFLAGS) -fPIC DM_DeM.c -o DM_DeM.o
+
+main: 
+	gcc main.c -o main -L$(out_dir) -lDeM 
+	
+#LINUX
+#Android
+
+#iOS
+
+.PHONY = clean
+clean:
+	rm -f *.o

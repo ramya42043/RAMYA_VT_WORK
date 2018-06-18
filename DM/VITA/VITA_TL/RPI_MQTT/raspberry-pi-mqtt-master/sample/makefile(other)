@@ -1,0 +1,5 @@
+curr_dir = $(shell pwd)/
+all: main
+
+main:
+	g++ -std=c++11 main.cpp -o program -I ../../../../VITA_DM/Source/ -L /home/pujalash/may1st2017_test_doc/dm/VITA/VITA_DM/Executables/lib -lCM -lDeM -lDSM -L /home/pujalash/may1st2017_test_doc/dm/VITA/VITA_DM/VITA_DM/DM_IoTvity/ -lDM_iotivity -ljson

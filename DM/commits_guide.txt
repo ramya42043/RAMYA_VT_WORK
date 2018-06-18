@@ -1,0 +1,22 @@
+*****************************AVOID*************************************
+Date: May 4th 2017
+Please avoid the following commits:
+
+commit afb22d3029f8126ac1cff8cfbde5da992f621371
+Author: ASHOK SIVA KUMAR PUJALA <ashoksivakumar.pujala@votarytech.com>
+Date:   Wed May 3 14:42:17 2017 +0530
+
+    DM API's as per Documentation & NO MQTT Interface(Only Unit Test)
+
+commit 14905054c8e838417e794ea8af115e52b0ff4db4
+Author: ASHOK SIVA KUMAR PUJALA <ashoksivakumar.pujala@votarytech.com>
+Date:   Tue May 2 14:45:36 2017 +0530
+
+    DM API's changed as per our\ requirement
+
+commit cb7254d0e695f334265e7e8c583814dcbeede04b
+Author: ASHOK SIVA KUMAR PUJALA <ashoksivakumar.pujala@votarytech.com>
+Date:   Tue May 2 10:53:51 2017 +0530
+
+    API's changed as per documentation
+

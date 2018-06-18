@@ -1,0 +1,3 @@
+April 24 2017: Bugs fixed
+1. Re-execution of GET and PUT implicitly after each explicit call from MQTT
+2. Optimised performance for NON-IOTIVITY GET PUT characteristic table KEY-VALUE pair 
