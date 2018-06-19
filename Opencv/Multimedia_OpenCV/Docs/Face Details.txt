@@ -1,0 +1,12 @@
+APPLICATION -> Image Acquisition : start
+Image Acquisition -> Image Acquisition : Local
+Image Acquisition -> Image Acquisition : Camera
+Image Acquisition -> Database : Database(query)
+Database ->Image Acquisition: Database(reply)
+Image Acquisition --> Image Processing :Input Image 
+Image Processing ->Image Processing :Comapre Input Image with stored images
+Image Processing ->Image Processing :If match
+Image Processing -> Database   : Fetching Details(Query)
+Database -> Image Processing   : Fetching Details(Reply)
+Image Processing -->APPLICATION  :Send Details
+APPLICATION ->APPLICATION : Display Details
